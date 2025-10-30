@@ -21,7 +21,8 @@ from plot_utils import (
 
 def loadDf():
     """Loads the dataset from the parquet file."""
-    dataPath = Path("output/issues_filtered_quarter.parquet")
+
+    dataPath = Path("output/issues_filtered.parquet")
 
     if not dataPath.exists():
         print(f"File {dataPath} not found.")
@@ -48,7 +49,7 @@ def clean_repo_name(repo):
 
 def get_repo_color_mapping(repos):
     """Create a consistent color mapping for repositories."""
-    # Define a consistent color mapping for known repositories
+
     repo_color_map = {
         'langchain-ai/langchain': MAIN_COLORS[0],
         'run-llama/llama_index': MAIN_COLORS[1],
@@ -108,22 +109,22 @@ def createMonthlyGrowthPlot(df, date):
         # Create cumulative count starting from 0
         repoDf['cumulative_count'] = range(1, len(repoDf) + 1)
         
-        # Group by quarter and get the last cumulative count for each quarter
-        repoDf['year_quarter'] = repoDf[date].dt.to_period('Q')
-        quarterly_data = repoDf.groupby('year_quarter').agg({
-            date: 'last',  # Use the last date in the quarter
-            'cumulative_count': 'last'  # Use the last cumulative count in the quarter
+        # Group by month and get the first date and last cumulative count for each month
+        repoDf['year_month'] = repoDf[date].dt.to_period('M')
+        monthly_data = repoDf.groupby('year_month').agg({
+            date: 'first',
+            'cumulative_count': 'last'
         }).reset_index(drop=True)
         
         # Add a starting point at (first_date, 0) to eliminate the gap
-        first_date = quarterly_data[date].iloc[0]
+        first_date = monthly_data[date].iloc[0]
         start_point = pd.DataFrame({
             date: [first_date],
             'cumulative_count': [0]
         })
         
         # Combine start point with actual data
-        plot_data = pd.concat([start_point, quarterly_data[[date, 'cumulative_count']]], ignore_index=True)
+        plot_data = pd.concat([start_point, monthly_data[[date, 'cumulative_count']]], ignore_index=True)
 
         ax.plot(plot_data[date], plot_data['cumulative_count'], 
                label=repo, color=repo_colors[repo], linewidth=PLOT_LINE_WIDTH)
