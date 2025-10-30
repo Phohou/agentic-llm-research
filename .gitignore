@@ -29,3 +29,4 @@ coverage/
 # data
 data/
 output/
+__pycache__
