@@ -20,18 +20,19 @@ FIG_SIZE_SMALL = (3.5, 2.0)
 
 # Font sizes
 FONT_SIZES = {
-    "title": 10,
-    "axis_label": 9,
-    "tick": 8,
-    "legend": 8,
-    "annotation": 7,
+    "title": 9.5,
+    "axis_label": 8.4,
+    "tick": 7.2,
+    "legend": 7.2,
+    "annotation": 6,
 }
 
 # Plot styling constants
 PLOT_LINE_WIDTH = 1.2
+PLOT_LINE_WIDTH_THIN = 0.7
 MARKER_SIZE = 4
 MARKER_STYLES = ["o", "s", "^", "D", "v", "<", ">", "p", "*", "X"]
-GRID_ALPHA = 0.25
+GRID_ALPHA = 0.4  # Increased from 0.25 for better visibility
 LEGEND_NCOL = 2
 TITLE_PAD = 8
 AXIS_LABEL_PAD = 4
@@ -42,6 +43,40 @@ MARKER_EDGEWIDTH = 0.3
 FONT_FAMILY = "sans-serif"
 FONT_WEIGHT_NORMAL = "normal"
 FONT_WEIGHT_BOLD = "bold"
+
+
+def get_repo_color_mapping(repos):
+    """Create a consistent color mapping for repositories."""
+
+    repo_color_map = {
+        "langchain-ai/langchain": MAIN_COLORS[0],
+        "run-llama/llama_index": MAIN_COLORS[1],
+        "microsoft/autogen": MAIN_COLORS[2],
+        "deepset-ai/haystack": MAIN_COLORS[3],
+        "crewAIInc/crewAI": MAIN_COLORS[4],
+        "microsoft/semantic-kernel": MAIN_COLORS[5],
+        "TransformerOptimus/SuperAGI": MAIN_COLORS[6],
+        "letta-ai/letta": MAIN_COLORS[7],
+        "FoundationAgents/MetaGPT": MAIN_COLORS[8],
+    }
+
+    # For any repos not in the predefined map, assign colors from the remaining palette
+    colors = {}
+    used_colors = set()
+
+    for repo in repos:
+        if repo in repo_color_map:
+            colors[repo] = repo_color_map[repo]
+            used_colors.add(repo_color_map[repo])
+        else:
+            # Find an unused color
+            for color in MAIN_COLORS:
+                if color not in used_colors:
+                    colors[repo] = color
+                    used_colors.add(color)
+                    break
+
+    return colors
 
 
 def format_time_label(date, granularity):
@@ -77,8 +112,12 @@ def setup_plotting_style():
             "ytick.labelsize": FONT_SIZES["tick"],
             "xtick.color": "#333333",
             "ytick.color": "#333333",
-            "xtick.major.width": 0.5,
-            "ytick.major.width": 0.5,
+            "xtick.major.width": 0.6,
+            "ytick.major.width": 0.6,
+            "xtick.major.size": 4,  # Add tick marks
+            "ytick.major.size": 4,  # Add tick marks
+            "xtick.direction": "out",
+            "ytick.direction": "out",
             "legend.fontsize": FONT_SIZES["legend"],
             "legend.title_fontsize": FONT_SIZES["legend"],
             "legend.facecolor": "white",
@@ -86,9 +125,9 @@ def setup_plotting_style():
             "legend.framealpha": 0.8,
             "legend.borderpad": 0.4,
             "axes.grid": True,
-            "grid.alpha": 0.2,
+            "grid.alpha": 0.6,
             "grid.color": "#CCCCCC",
-            "grid.linestyle": "--",
+            "grid.linestyle": "-",
             "grid.linewidth": 0.5,
             "axes.titlepad": 12,
         }
@@ -164,16 +203,38 @@ def setup_categorical_axis_ticks(ax, labels, n_ticks=None, rotation=0):
         spine.set_linewidth(0.6)
 
 
-def setup_legend(ax, title=None, loc="upper left", ncol=1, frameon=True):
+def setup_legend(
+    ax,
+    title=None,
+    loc="upper left",
+    bbox_to_anchor=None,
+    ncol=1,
+    frameon=True,
+    wrap_text=True,
+    max_width=20,
+):
+    from textwrap import wrap
+
+    # Get current legend handles and labels
+    handles, labels = ax.get_legend_handles_labels()
+
+    # Wrap labels if requested
+    if wrap_text:
+        labels = ["\n".join(wrap(label, max_width)) for label in labels]
+
     legend = ax.legend(
+        handles,
+        labels,
         title=title,
         loc=loc,
         ncol=ncol,
+        bbox_to_anchor=bbox_to_anchor,
         frameon=frameon,
         facecolor="white",
         edgecolor="#CCCCCC",
         framealpha=0.8,
         borderpad=0.4,
+        handlelength=1,
     )
 
     if title:
@@ -182,22 +243,22 @@ def setup_legend(ax, title=None, loc="upper left", ncol=1, frameon=True):
     plt.setp(legend.get_texts(), fontsize=FONT_SIZES["legend"], color="#333333")
 
 
-def apply_grid_style(ax, major_alpha=0.2, minor_alpha=0.1):
+def apply_grid_style(ax, major_alpha=0.3, minor_alpha=0.2):
     ax.grid(
         True,
         which="major",
-        linestyle="--",
-        alpha=major_alpha,
-        color="#CCCCCC",
-        linewidth=0.5,  # Thinner lines
+        linestyle="-",  # Solid lines
+        alpha=major_alpha,  # Lighter
+        color="#CCCCCC",  # Lighter color
+        linewidth=0.5,
     )
     ax.grid(
         True,
         which="minor",
-        linestyle=":",
-        alpha=minor_alpha,
-        color="#CCCCCC",
-        linewidth=0.4,
+        linestyle="-",  # Solid lines
+        alpha=minor_alpha,  # Lighter
+        color="#DDDDDD",  # Even lighter for minor
+        linewidth=0.3,
     )
 
     ax.set_axisbelow(True)
