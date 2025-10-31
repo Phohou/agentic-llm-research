@@ -4,6 +4,8 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent.parent
 DATA_DIR = ROOT_DIR / "data"
 SCRIPTS_DIR = ROOT_DIR / "scripts"
+FIGURES_DIR = ROOT_DIR / "figures"
+OUTPUT_DIR = ROOT_DIR / "output"
 
 
 REPO_NAME_TO_DISPLAY = {
