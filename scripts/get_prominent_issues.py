@@ -8,7 +8,7 @@ from constants import DATA_DIR
 
 
 def main():
-    labels_to_extract = ["Bug", "Language or Framework Specific"]
+    labels_to_extract = ["Bug", "Agent Related Issues & Implementations"]
 
     df = pd.read_parquet(DATA_DIR / "issues_with_categorized_labels_nocutoff.parquet")
 
@@ -28,7 +28,9 @@ def main():
         )
     )
 
-    filtered_issues_df.to_parquet(DATA_DIR / "prominent_issues.parquet", index=False)
+    filtered_issues_df.to_parquet(
+        DATA_DIR / "prominent_issues_new.parquet", index=False
+    )
 
 
 if __name__ == "__main__":
