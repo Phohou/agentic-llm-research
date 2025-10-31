@@ -25,9 +25,5 @@ build/
 out/
 coverage/
 
-
-# data
-data/
-output/
 __pycache__
 .DS_Store

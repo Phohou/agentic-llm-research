@@ -1,0 +1,9 @@
+repo,mean,median,std,count,min,max,25th_percentile,75th_percentile
+run-llama/llama_index,12.49,0.98,42.45,770,0.0,558.99,0.24,5.33
+letta-ai/letta,15.86,2.82,44.79,135,0.01,338.23,1.12,10.37
+langchain-ai/langchain,24.37,4.53,44.12,511,0.0,422.33,0.97,24.76
+microsoft/autogen,20.14,4.73,40.0,709,0.01,320.84,1.24,18.92
+crewAIInc/crewAI,17.77,6.16,30.63,89,0.07,182.57,2.29,19.44
+microsoft/semantic-kernel,30.68,10.87,50.19,1108,0.01,457.64,2.78,33.94
+deepset-ai/haystack,32.41,11.74,61.69,1405,0.0,560.49,3.03,31.79
+TransformerOptimus/SuperAGI,16.23,14.52,15.83,4,1.17,34.71,4.11,26.63

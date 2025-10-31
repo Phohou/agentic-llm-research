@@ -1,0 +1,26 @@
+Issues with Resolution Time < 0.5 Days (12 hours)
+====================================================================================================
+
+Total issues found: 678
+
+Distribution by repo:
+repo
+run-llama/llama_index        300
+microsoft/autogen             93
+deepset-ai/haystack           90
+microsoft/semantic-kernel     88
+langchain-ai/langchain        77
+letta-ai/letta                22
+crewAIInc/crewAI               8
+
+Statistics:
+  Min resolution time: 0.000613 days
+  Max resolution time: 0.498333 days
+  Mean resolution time: 0.195928 days
+  Median resolution time: 0.168252 days
+
+  Min resolution hours: 0.01 hours
+  Max resolution hours: 11.96 hours
+
+
+See 'zero_day_resolution_issues.csv' for detailed records.

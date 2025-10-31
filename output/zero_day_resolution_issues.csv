@@ -1,0 +1,679 @@
+repo,issue_number,issue_title,issue_created_at,issue_closed_at,resolution_days,resolution_hours,resolution_minutes
+deepset-ai/haystack,7012,RecentnessRanker,2024-02-16 10:44:54,2024-02-16 10:45:47,0.0006134259259259259,0.014722222222222222,0.8833333333333333
+deepset-ai/haystack,7367,DiversityRanker,2024-03-15 08:03:27,2024-03-15 08:05:31,0.0014351851851851852,0.034444444444444444,2.066666666666667
+run-llama/llama_index,17037,[Bug]: ValueError when using Ollama,2024-11-22 16:41:22,2024-11-22 16:45:50,0.0031018518518518517,0.07444444444444444,4.466666666666667
+langchain-ai/langchain,28989,SlackToolkit Problem - sample code does not work,2025-01-02 16:09:33,2025-01-02 16:14:18,0.003298611111111111,0.07916666666666666,4.75
+langchain-ai/langchain,13539,New update broke embeddings models,2023-11-17 21:47:33,2023-11-17 21:52:59,0.0037731481481481483,0.09055555555555556,5.433333333333334
+run-llama/llama_index,16538,[Bug]: Initialization of TimescaleVectorStore,2024-10-14 21:14:46,2024-10-14 21:21:31,0.0046875,0.1125,6.75
+microsoft/autogen,6165,the installation instruction for autogen-studio had a missing step,2025-04-01 07:36:59,2025-04-01 07:44:51,0.005462962962962963,0.13111111111111112,7.866666666666666
+run-llama/llama_index,17983,[Documentation]: llama_index.core.context cannot found,2025-03-03 01:55:40,2025-03-03 02:05:03,0.006516203703703704,0.15638888888888888,9.383333333333333
+run-llama/llama_index,13333,[Question]: Why model `gpt-4-1106-vision-preview`  is not present?,2024-05-07 17:17:37,2024-05-07 17:27:02,0.006539351851851852,0.15694444444444444,9.416666666666666
+run-llama/llama_index,15609,Resolve all remaining `__private_var__` pydantic v2 errors in integrations and packs,2024-08-24 00:16:59,2024-08-24 00:26:36,0.006678240740740741,0.16027777777777777,9.616666666666667
+run-llama/llama_index,13635,[Documentation]: upstage integration typos,2024-05-22 02:11:56,2024-05-22 02:21:36,0.006712962962962963,0.16111111111111112,9.666666666666666
+microsoft/semantic-kernel,2131,.Net: explose CancellationToken param on ALL -Async calls (do not rely on it being in SKContext),2023-07-21 21:42:58,2023-07-21 21:53:01,0.0069791666666666665,0.1675,10.05
+microsoft/semantic-kernel,10950,.Net: Fix CodeQL Errors,2025-03-13 07:15:10,2025-03-13 07:26:04,0.007569444444444445,0.18166666666666667,10.9
+microsoft/autogen,4127,AgentChat show handoff message termination for asking user input,2024-11-11 05:27:38,2024-11-11 05:38:53,0.0078125,0.1875,11.25
+deepset-ai/haystack,5075,`generalimport` v0.5.0 is breaking,2023-06-05 08:16:55,2023-06-05 08:29:53,0.00900462962962963,0.21611111111111111,12.966666666666667
+run-llama/llama_index,17841,"[Bug]: llama-index-graph-stores-memgraph still requires llama-index >=0.10.0, <0.11.0",2025-02-17 15:20:59,2025-02-17 15:34:28,0.009363425925925926,0.2247222222222222,13.483333333333333
+letta-ai/letta,2077,Pydantic schema error with AsyncGenerator in llama-index integration,2024-11-21 01:48:42,2024-11-21 02:02:18,0.009444444444444445,0.22666666666666666,13.6
+microsoft/autogen,1973,[Bug]: LFS problem with conversable-agent.jpg,2024-03-12 18:02:36,2024-03-12 18:16:31,0.009664351851851851,0.23194444444444445,13.916666666666666
+run-llama/llama_index,19634,[Bug]: KeyError: 'embedding' while using OllamaEmbedding,2025-08-10 22:31:53,2025-08-10 22:46:31,0.010162037037037037,0.24388888888888888,14.633333333333333
+run-llama/llama_index,9350,"[Bug]: ContextChatEngine user supplied system prompt is concatenated below the context, is it misplaced?",2023-12-06 18:09:21,2023-12-06 18:24:01,0.010185185185185186,0.24444444444444444,14.666666666666666
+run-llama/llama_index,13205,[Bug]: todays released version v0.1.6 postgres vector store sqlalchemy.exc.ArgumentError: mapping or list expected for parameters,2024-05-01 21:29:48,2024-05-01 21:46:16,0.011435185185185185,0.27444444444444444,16.466666666666665
+run-llama/llama_index,17565,[Question]: stream_chat with Bedrock and LangchainLLM wrapper doesn't seem to work while stream_complete does,2025-01-20 22:41:04,2025-01-20 22:57:41,0.011539351851851851,0.27694444444444444,16.616666666666667
+run-llama/llama_index,18257,[Question]: Experiencing significant differences in the output from the LLamaIndex llm chat Api and OpenAI's direct api for image reasoning.,2025-03-24 16:55:37,2025-03-24 17:12:37,0.011805555555555555,0.2833333333333333,17.0
+run-llama/llama_index,12703,[Bug]MilvusVectorStore output_fields can't be none,2024-04-10 16:14:08,2024-04-10 16:31:10,0.011828703703703704,0.2838888888888889,17.033333333333335
+run-llama/llama_index,8982,[Bug]:  HierarchicalNodeParser no longer functionnal,2023-11-17 16:45:40,2023-11-17 17:03:10,0.012152777777777778,0.2916666666666667,17.5
+run-llama/llama_index,15531,[Documentation]: Some links in tools guide are out-dated,2024-08-20 23:12:13,2024-08-20 23:31:31,0.013402777777777777,0.32166666666666666,19.3
+run-llama/llama_index,15764,[Question]: Constraints on testing embedding packages due to __init__.py,2024-09-01 04:41:23,2024-09-01 05:01:26,0.01392361111111111,0.33416666666666667,20.05
+run-llama/llama_index,9592,[Question]: no validator found for <class 'llama_index.agent.types.Task'> when initialising query engine,2023-12-18 19:33:38,2023-12-18 19:53:51,0.014039351851851851,0.33694444444444444,20.216666666666665
+microsoft/semantic-kernel,9089,.Net: Bug: System.MissingMethodException in Microsoft.SemanticKernel.AzureOpenAIKernelBuilderExtensions.CreateAzureOpenAIClient during Service Initialization,2024-10-04 10:33:02,2024-10-04 10:53:22,0.01412037037037037,0.3388888888888889,20.333333333333332
+run-llama/llama_index,10952,[Bug]: TypeError: GithubClient.get_branch() got an unexpected keyword argument 'timeout',2024-02-18 20:48:01,2024-02-18 21:08:58,0.014548611111111111,0.3491666666666667,20.95
+deepset-ai/haystack,4558,Some links in readme resources are not working,2023-03-30 12:55:04,2023-03-30 13:17:02,0.01525462962962963,0.3661111111111111,21.966666666666665
+run-llama/llama_index,17232,[Bug]: Can't migrate project to python 3.13 because of llama-index subdependency,2024-12-10 16:02:06,2024-12-10 16:24:47,0.015752314814814816,0.37805555555555553,22.683333333333334
+run-llama/llama_index,8939,[Bug]: VectorStoreIndex.from_documents changes break examples,2023-11-16 01:47:53,2023-11-16 02:12:06,0.01681712962962963,0.4036111111111111,24.216666666666665
+run-llama/llama_index,19463,[Bug]: load_kwargs causes error from LLM response in WikipediaToolSpec.load_data,2025-07-18 15:15:04,2025-07-18 15:41:02,0.018032407407407407,0.43277777777777776,25.966666666666665
+letta-ai/letta,2056,Docker Compose startup issues: nginx configuration and database initialization,2024-11-18 03:02:34,2024-11-18 03:28:54,0.018287037037037036,0.4388888888888889,26.333333333333332
+run-llama/llama_index,18465,[Bug]: llama-index-callbacks-arize-phoenix 0.5.0 requires Python <3.13,2025-04-15 20:58:51,2025-04-15 21:25:17,0.01835648148148148,0.44055555555555553,26.433333333333334
+run-llama/llama_index,13087,[Bug]: TypeError: argument of type 'NoneType' is not iterable in Qdrant,2024-04-24 16:21:55,2024-04-24 16:49:29,0.019143518518518518,0.45944444444444443,27.566666666666666
+microsoft/autogen,4257,Fix code scanning alert - SwaggerUI-Use,2024-11-18 17:36:09,2024-11-18 18:04:48,0.019895833333333335,0.4775,28.65
+run-llama/llama_index,19656,[Bug]: unexpected keyword 'corpus_weight_mask' when loading BM25Retriever from persist,2025-08-13 03:09:42,2025-08-13 03:38:22,0.01990740740740741,0.4777777777777778,28.666666666666668
+run-llama/llama_index,18406,[Bug]: Unintended Modification of built_in_tools in OpenAIResponses,2025-04-08 23:47:56,2025-04-09 00:16:38,0.019930555555555556,0.47833333333333333,28.7
+microsoft/autogen,4870,OpenAI model client depends on azure,2024-12-31 19:54:50,2024-12-31 20:23:40,0.020023148148148148,0.48055555555555557,28.833333333333332
+letta-ai/letta,1226,Support Python 3.12,2024-04-06 20:17:21,2024-04-06 20:46:24,0.02017361111111111,0.4841666666666667,29.05
+run-llama/llama_index,15955,[Bug]: Unable to pass a synchronous client to OpenSearchVectorClient,2024-09-11 04:04:46,2024-09-11 04:35:46,0.021527777777777778,0.5166666666666667,31.0
+microsoft/autogen,5186,Typo in dotnet/samples/Hello/HelloAIAgents/Program.cs,2025-01-24 18:55:02,2025-01-24 19:26:30,0.02185185185185185,0.5244444444444445,31.466666666666665
+deepset-ai/haystack,4844,Check that base install succeeds on all platforms,2023-05-09 09:15:14,2023-05-09 09:46:55,0.022002314814814815,0.5280555555555555,31.683333333333334
+microsoft/autogen,4490,"exceptions in Orleans storage - ""Orleans.Storage.MemoryGrainStorage: Error: Error from storage provider MemoryGrainStorage.state during WriteStateAsync for grain subscriptions/0(null)InconsistentStateException: e-Tag mismatch in Memory Storage.""",2024-12-03 16:39:06,2024-12-03 17:10:48,0.02201388888888889,0.5283333333333333,31.7
+run-llama/llama_index,8817,[Bug]: CitationQueryEngine fails when node postprocessor requires a query_bundle argument,2023-11-09 21:27:15,2023-11-09 21:59:09,0.022152777777777778,0.5316666666666666,31.9
+deepset-ai/haystack,2,Wrong offsets returned by FARMReader,2020-01-14 15:55:58,2020-01-14 16:28:30,0.02259259259259259,0.5422222222222223,32.53333333333333
+langchain-ai/langchain,27426,Scheduled GitHub Actions Running on Forked Repositories,2024-10-17 13:58:13,2024-10-17 14:31:15,0.022939814814814816,0.5505555555555556,33.03333333333333
+run-llama/llama_index,13900,[Documentation]: Property Graph Index,2024-06-03 01:02:32,2024-06-03 01:35:38,0.02298611111111111,0.5516666666666666,33.1
+run-llama/llama_index,16867,[Bug]: cannot import name 'DataBricks' from 'llama_index.llms.databricks,2024-11-07 18:38:09,2024-11-07 19:11:35,0.023217592592592592,0.5572222222222222,33.43333333333333
+run-llama/llama_index,18308,[Feature Request]: Add provider option to FastEmbed integration to allow running on GPU,2025-03-29 02:43:46,2025-03-29 03:17:55,0.023715277777777776,0.5691666666666667,34.15
+run-llama/llama_index,9580,[Bug]: Metadata field not properly handled in Astra DB Integration,2023-12-18 15:09:57,2023-12-18 15:44:46,0.02417824074074074,0.5802777777777778,34.81666666666667
+run-llama/llama_index,19278,[Bug]: IngestionCache does not support Node objects,2025-07-01 00:34:29,2025-07-01 01:09:34,0.024363425925925927,0.5847222222222223,35.083333333333336
+microsoft/autogen,6601,Migrate AzureAIAgent (backed by Azure Foundry) to new SDK version,2025-05-27 17:16:38,2025-05-27 17:52:48,0.02511574074074074,0.6027777777777777,36.166666666666664
+microsoft/semantic-kernel,9097,Process Framework: SubProcess integration,2024-10-04 21:39:04,2024-10-04 22:15:28,0.025277777777777777,0.6066666666666667,36.4
+microsoft/semantic-kernel,11694,Bug: With new KernelProcessEventData serialization Sample 04 - Agent doenst work,2025-04-23 16:36:59,2025-04-23 17:13:53,0.025625,0.615,36.9
+langchain-ai/langchain,10806,Error when using gpt-3.5-turbo-instruct: model_token_mapping is missing an entry for gpt-3.5-turbo-instruct,2023-09-19 23:26:18,2023-09-20 00:03:17,0.02568287037037037,0.6163888888888889,36.983333333333334
+run-llama/llama_index,11629,[Bug]: Initialization of ClickHouseVectorStore failed,2024-03-05 02:56:16,2024-03-05 03:33:32,0.02587962962962963,0.6211111111111111,37.266666666666666
+deepset-ai/haystack,5323,Deprecate `SklearnQueryClassifier`,2023-07-11 14:30:07,2023-07-11 15:07:25,0.025902777777777778,0.6216666666666667,37.3
+microsoft/semantic-kernel,3774,.Net Native Function -> Method Function Missing Renaming,2023-11-30 12:54:39,2023-11-30 13:32:41,0.026412037037037036,0.6338888888888888,38.03333333333333
+microsoft/semantic-kernel,4962,.Net: Microsoft Graph connector supports personal accounts only,2024-02-12 08:47:34,2024-02-12 09:25:44,0.026504629629629628,0.6361111111111111,38.166666666666664
+run-llama/llama_index,10654,[Bug]: wrong import of OpenAIPydanticProgram,2024-02-13 15:01:50,2024-02-13 15:40:25,0.02679398148148148,0.6430555555555556,38.583333333333336
+run-llama/llama_index,10036,[Feature Request]: KnowledgeGraphIndex not working with LLM 'solar' - triplet response parsing,2024-01-14 16:14:57,2024-01-14 16:54:58,0.027789351851851853,0.6669444444444445,40.016666666666666
+deepset-ai/haystack,9283,Add `Toolset` to Agent's init tools parameter,2025-04-22 11:28:09,2025-04-22 12:08:35,0.028078703703703703,0.6738888888888889,40.43333333333333
+run-llama/llama_index,15203,[Bug]:Perplexity LLM integration list outdated,2024-08-07 19:06:33,2024-08-07 19:47:39,0.028541666666666667,0.685,41.1
+run-llama/llama_index,13851,[Bug]: minor doc issue with MLX,2024-05-31 03:14:09,2024-05-31 03:56:09,0.029166666666666667,0.7,42.0
+run-llama/llama_index,13401,[Bug]: Some notebooks set OPENAI_API_TOKEN instead of OPENAI_API_KEY,2024-05-09 18:20:16,2024-05-09 19:03:14,0.029837962962962962,0.7161111111111111,42.96666666666667
+microsoft/semantic-kernel,9234,.Net Agents - Include token usage for assistant tool-calls,2024-10-11 19:11:50,2024-10-11 19:55:21,0.030219907407407407,0.7252777777777778,43.516666666666666
+langchain-ai/langchain,3157,Missing Observation and Thought prefix in output,2023-04-19 15:15:26,2023-04-19 16:00:12,0.031087962962962963,0.7461111111111111,44.766666666666666
+run-llama/llama_index,16797,[Bug]: ModuleNotFoundError: No module named 'llama_index.llms.sambanova',2024-11-03 05:26:35,2024-11-03 06:12:13,0.031689814814814816,0.7605555555555555,45.63333333333333
+microsoft/autogen,5710,uv.lock constantly breaks,2025-02-25 19:01:13,2025-02-25 19:47:22,0.03204861111111111,0.7691666666666667,46.15
+langchain-ai/langchain,25413,create_sql_agent  ImportError: cannot import name 'ToolsRenderer' from 'langchain_core.tools' ,2024-08-14 21:43:18,2024-08-14 22:29:41,0.03221064814814815,0.7730555555555556,46.38333333333333
+microsoft/autogen,608,Open100 achievements,2023-11-09 14:59:11,2023-11-09 15:45:43,0.03231481481481482,0.7755555555555556,46.53333333333333
+langchain-ai/langchain,16389,Streaming broken for GPT4all,2024-01-22 17:07:32,2024-01-22 17:54:20,0.0325,0.78,46.8
+deepset-ai/haystack,2905,`import haystack` fails on current master,2022-07-28 09:37:30,2022-07-28 10:25:33,0.033368055555555554,0.8008333333333333,48.05
+langchain-ai/langchain,718,Namespaced pinecone operations cannot be re-used,2023-01-24 14:14:53,2023-01-24 15:02:59,0.03340277777777778,0.8016666666666666,48.1
+letta-ai/letta,1470,`/pop` broken,2024-06-22 20:08:36,2024-06-22 20:57:28,0.033935185185185186,0.8144444444444444,48.86666666666667
+deepset-ai/haystack,1332,Add Annotation FAQ to read.me,2021-08-10 12:06:01,2021-08-10 12:55:31,0.034375,0.825,49.5
+microsoft/autogen,2652,[.Net][Bug]: Add instruction on adding dotnet-tool feed when installing AutoGen.DotnetInteractive package ,2024-05-10 21:56:01,2024-05-10 22:45:36,0.03443287037037037,0.8263888888888888,49.583333333333336
+run-llama/llama_index,14848,"[Bug]: llama-index-multi-modal-llms-anthropic 0.1.4 requires anthropic<0.24.0,>=0.23.1, but you have anthropic 0.28.1 which is incompatible.",2024-07-19 15:56:37,2024-07-19 16:46:43,0.034791666666666665,0.835,50.1
+deepset-ai/haystack,6028,`AnalyzeResult` Type Error in `AzureOCRDocumentConverter,2023-10-11 13:54:01,2023-10-11 14:44:11,0.034837962962962966,0.8361111111111111,50.166666666666664
+microsoft/semantic-kernel,9233,.Net Agents - Full Code Interpreter Output Not Captured when Streaming,2024-10-11 19:05:10,2024-10-11 19:55:20,0.034837962962962966,0.8361111111111111,50.166666666666664
+run-llama/llama_index,18974,[Bug]: Pandas 2.3.0 breaks build,2025-06-05 03:34:59,2025-06-05 04:25:28,0.03505787037037037,0.8413888888888889,50.483333333333334
+run-llama/llama_index,18873,[Feature Request]: Add rows/cols retrievers parameter in NLSQLTableQueryEngine,2025-05-28 09:17:52,2025-05-28 10:10:00,0.0362037037037037,0.8688888888888889,52.13333333333333
+run-llama/llama_index,10672,[Question]: FunctionComponent?,2024-02-13 20:29:15,2024-02-13 21:21:24,0.03621527777777778,0.8691666666666666,52.15
+run-llama/llama_index,19324,[Bug]: Context restore validation error,2025-07-06 20:20:42,2025-07-06 21:13:06,0.03638888888888889,0.8733333333333333,52.4
+microsoft/autogen,4267,OpenAIAssistant should be in autogen-ext module,2024-11-19 05:49:24,2024-11-19 06:42:12,0.03666666666666667,0.88,52.8
+run-llama/llama_index,18737,"[Bug]: OpenAI LLM integration returns ""ValueError: Unsupported content block type: TextBlock""",2025-05-15 10:23:55,2025-05-15 11:17:22,0.03711805555555556,0.8908333333333334,53.45
+microsoft/semantic-kernel,4310,.Net Add Missing Generic APIs for InvokePromptStreamingAsync<T>/ InvokePromptAsync<T>,2023-12-15 19:11:12,2023-12-15 20:04:56,0.037314814814814815,0.8955555555555555,53.733333333333334
+run-llama/llama_index,18814,[Feature Request]: Allow sending no temperature to Ollama and let Ollama use default temperature for the model.,2025-05-22 16:32:36,2025-05-22 17:27:42,0.03826388888888889,0.9183333333333333,55.1
+run-llama/llama_index,17239,[Bug]: Azure Databricks LLM Model Endpoints 400 - Bad Request,2024-12-11 00:30:18,2024-12-11 01:25:57,0.03864583333333333,0.9275,55.65
+run-llama/llama_index,12420,[Bug]: Completion Tokens of acomplete and achat methods not correctly counted,2024-03-29 21:36:44,2024-03-29 22:35:46,0.04099537037037037,0.9838888888888889,59.03333333333333
+microsoft/semantic-kernel,4235,OpenAIPromptExecutionSettings has incorrect default settings for Temperature and TopP,2023-12-13 17:34:39,2023-12-13 18:33:56,0.04116898148148148,0.9880555555555556,59.28333333333333
+run-llama/llama_index,10297,[Feature Request]: Support for more than one relevant document in SentenceTransformersFinetuneEngine,2024-01-26 19:42:01,2024-01-26 20:42:15,0.0418287037037037,1.0038888888888888,60.233333333333334
+microsoft/autogen,2650,[.Net][Bug]: Fix broken link in website,2024-05-10 21:45:07,2024-05-10 22:45:37,0.04201388888888889,1.0083333333333333,60.5
+run-llama/llama_index,15885,[Documentation]: CypherTemplateRetriever Example Runtime Error,2024-09-06 17:32:59,2024-09-06 18:33:33,0.04206018518518519,1.0094444444444444,60.56666666666667
+deepset-ai/haystack,7749,PDFMinerToDocument buggy output,2024-05-27 18:03:50,2024-05-27 19:04:41,0.042256944444444444,1.0141666666666667,60.85
+deepset-ai/haystack,5141,Add support for gpt-3.5-turbo-16k and other new OpenAI models.,2023-06-14 06:51:48,2023-06-14 07:53:02,0.04252314814814815,1.0205555555555557,61.233333333333334
+microsoft/autogen,6751,`GraphFlowManager` should not let `_StopAgent` speak and apply termination if no more ready agent,2025-07-06 06:55:30,2025-07-06 07:57:04,0.04275462962962963,1.0261111111111112,61.56666666666667
+langchain-ai/langchain,7652,SQLite LLM cache clear does not take effect,2023-07-13 12:36:48,2023-07-13 13:39:06,0.043263888888888886,1.0383333333333333,62.3
+deepset-ai/haystack,4684,`langdetect` is not optional,2023-04-17 08:33:11,2023-04-17 09:35:55,0.04356481481481481,1.0455555555555556,62.733333333333334
+deepset-ai/haystack,1612,Default optimizer not working when training DensePassageRetriever,2021-10-19 13:15:10,2021-10-19 14:18:31,0.043993055555555556,1.0558333333333334,63.35
+run-llama/llama_index,19136,[Bug]: Chain-of-Abstraction fails to replace placeholders in chained expressions,2025-06-19 01:29:27,2025-06-19 02:33:15,0.044305555555555556,1.0633333333333332,63.8
+deepset-ai/haystack,7833,Docker workflow always fails on fork runs,2024-06-10 07:47:47,2024-06-10 08:51:42,0.04438657407407407,1.0652777777777778,63.916666666666664
+microsoft/autogen,6304,Installing Task Centric Memory related dependency causes protobuf version conflicting error,2025-04-15 14:59:02,2025-04-15 16:04:02,0.04513888888888889,1.0833333333333333,65.0
+langchain-ai/langchain,25784,"""expected string or buffer"" error thrown when an openai_functions_agent uses a tool and the response is streamed using .astream()",2024-08-27 19:13:07,2024-08-27 20:18:21,0.045300925925925925,1.0872222222222223,65.23333333333333
+deepset-ai/haystack,3082,`test__get_vector_similarity_query_support_true` and `test__get_vector_similarity_query_support_false` for `OpenSearchDocumentStore` are flaky,2022-08-22 10:13:42,2022-08-22 11:19:46,0.04587962962962963,1.1011111111111112,66.06666666666666
+letta-ai/letta,347,GPT-4-Turbo,2023-11-07 04:47:10,2023-11-07 05:53:50,0.046296296296296294,1.1111111111111112,66.66666666666667
+langchain-ai/langchain,14904,Issue: cannot import name 'LLMContentHandler' from 'langchain.llms.sagemaker_endpoint,2023-12-19 13:53:31,2023-12-19 15:00:33,0.046550925925925926,1.1172222222222221,67.03333333333333
+run-llama/llama_index,19467,[Bug]: AG-UI Router is printing all SSE messages to stdout,2025-07-18 21:03:01,2025-07-18 22:10:17,0.04671296296296296,1.1211111111111112,67.26666666666667
+run-llama/llama_index,19363,[Bug]: Pydantic error for documentation example,2025-07-08 20:37:03,2025-07-08 21:44:22,0.046747685185185184,1.1219444444444444,67.31666666666666
+microsoft/autogen,5012,Hello World code sample in README.md is not properly awaited,2025-01-12 07:56:49,2025-01-12 09:04:31,0.04701388888888889,1.1283333333333334,67.7
+run-llama/llama_index,14640,[Bug]: `SimpleDirectoryReader` not functioning as expected.,2024-07-08 19:41:18,2024-07-08 20:50:09,0.0478125,1.1475,68.85
+microsoft/semantic-kernel,6182,.Net: The OpenAITextEmbeddingGenerationService constructor that takes an OpenAIClient does not allow to set embedding dimensions,2024-05-10 14:59:37,2024-05-10 16:08:54,0.04811342592592593,1.1547222222222222,69.28333333333333
+microsoft/semantic-kernel,3771,.Net Update remaining semantic function to prompt function in codebase,2023-11-30 12:09:50,2023-11-30 13:19:47,0.04857638888888889,1.1658333333333333,69.95
+run-llama/llama_index,17035,[Bug]: llm.complete getting failed with Value error: Chat response object has no field usage while using ollama,2024-11-22 15:49:26,2024-11-22 16:59:40,0.04877314814814815,1.1705555555555556,70.23333333333333
+run-llama/llama_index,12330,[Bug]: Newest versions of llama-index-agent-openai don't install,2024-03-27 15:47:29,2024-03-27 16:57:45,0.048796296296296296,1.1711111111111112,70.26666666666667
+microsoft/autogen,4319,.NET Use tool call for next speaker selection,2024-11-22 20:40:13,2024-11-22 21:51:09,0.04925925925925926,1.1822222222222223,70.93333333333334
+run-llama/llama_index,19397,[Bug]: SimpleWebReader adds URL as doc ID,2025-07-11 13:11:21,2025-07-11 14:22:40,0.049525462962962966,1.188611111111111,71.31666666666666
+run-llama/llama_index,15597,[Question]: How do I resolve this issue when using a multimodal llm. I am on llama-index-core v0.11.0,2024-08-23 16:29:23,2024-08-23 17:41:27,0.0500462962962963,1.201111111111111,72.06666666666666
+run-llama/llama_index,10121,[Feature Request]:  add chromadb vector store instance test.,2024-01-18 14:00:29,2024-01-18 15:13:29,0.050694444444444445,1.2166666666666666,73.0
+run-llama/llama_index,18804,[Bug]: BaseNode/TextNode metadata unexpectedly overridden by extra_info field,2025-05-22 02:39:09,2025-05-22 03:52:41,0.05106481481481481,1.2255555555555555,73.53333333333333
+run-llama/llama_index,9695,[Bug]: Chroma complains about null values in metadata,2023-12-26 01:20:39,2023-12-26 02:34:15,0.051111111111111114,1.2266666666666666,73.6
+run-llama/llama_index,11820,[Bug]: The Cohere embedding isn't functioning properly,2024-03-11 14:46:26,2024-03-11 16:00:06,0.05115740740740741,1.2277777777777779,73.66666666666667
+run-llama/llama_index,17693,[Bug]: o3-mini doesn't support max_tokens,2025-02-01 18:28:34,2025-02-01 19:43:09,0.05179398148148148,1.2430555555555556,74.58333333333333
+run-llama/llama_index,10548,[Bug]: TypeError: object HeadApiResponse can't be used in 'await' expression,2024-02-09 15:06:49,2024-02-09 16:21:44,0.05202546296296296,1.2486111111111111,74.91666666666667
+run-llama/llama_index,11614,AzureCosmosDBMongoDBVectorSearch class is imcompatible with the IngestionPipeline[Bug]: ,2024-03-04 14:58:28,2024-03-04 16:14:07,0.05253472222222222,1.2608333333333333,75.65
+microsoft/semantic-kernel,11501,Demo sample UI App to interact with Cloud Events demo,2025-04-10 20:02:16,2025-04-10 21:19:21,0.053530092592592594,1.2847222222222223,77.08333333333333
+deepset-ai/haystack,7341,init param overrides run param for metafieldranker,2024-03-11 10:35:41,2024-03-11 11:52:56,0.05364583333333333,1.2875,77.25
+letta-ai/letta,235,/load pulls wrong file by default,2023-11-01 07:11:13,2023-11-01 08:28:33,0.053703703703703705,1.288888888888889,77.33333333333333
+deepset-ai/haystack,8065,docs: clean up docstrings of DocumentWriter,2024-07-24 10:36:59,2024-07-24 11:54:40,0.05394675925925926,1.2947222222222223,77.68333333333334
+deepset-ai/haystack,8141,Clean up LinkContentFetcher docstrings,2024-08-01 13:07:58,2024-08-01 14:27:32,0.05525462962962963,1.326111111111111,79.56666666666666
+langchain-ai/langchain,1126,ChatVectorDB missing a useful arg: return_source_documents,2023-02-17 20:19:11,2023-02-17 21:40:53,0.05673611111111111,1.3616666666666666,81.7
+microsoft/autogen,6628,Cycle detected without exit condition: generator -> reviewer -> generator,2025-06-05 03:11:24,2025-06-05 04:35:29,0.0583912037037037,1.4013888888888888,84.08333333333333
+microsoft/semantic-kernel,2831,Conform to new error handling to better communicate failure,2023-09-14 21:18:14,2023-09-14 22:42:37,0.05859953703703704,1.406388888888889,84.38333333333334
+run-llama/llama_index,18241,"[Bug]: LlamaIndex LLMs Ignore Pydantic Model Docs, System Prompt for Image & PDF Processing",2025-03-24 02:33:36,2025-03-24 03:59:23,0.05957175925925926,1.4297222222222221,85.78333333333333
+microsoft/autogen,3710,"Python version for uv checks, tomllib [staging]",2024-10-09 19:15:32,2024-10-09 20:42:31,0.060405092592592594,1.4497222222222221,86.98333333333333
+run-llama/llama_index,9859,[Feature Request]:  rename docker-compose file ,2024-01-05 15:14:50,2024-01-05 16:42:14,0.06069444444444445,1.4566666666666668,87.4
+deepset-ai/haystack,9123,ci: review required jobs in `tests` workflow,2025-03-27 15:44:19,2025-03-27 17:12:28,0.06121527777777778,1.4691666666666667,88.15
+run-llama/llama_index,16493,[Bug]: Qdrant fastembed sparse encoder model name typo,2024-10-10 19:47:01,2024-10-10 21:16:33,0.062175925925925926,1.4922222222222221,89.53333333333333
+run-llama/llama_index,15772,[Feature Request]: add dimensions parameter to LiteLLMEmbedding,2024-09-01 20:03:08,2024-09-01 21:33:28,0.06273148148148149,1.5055555555555555,90.33333333333333
+langchain-ai/langchain,8272,"not enough values to unpack (expected 2, got 1) while LabeledPairwiseStringEvalChain with evaluate_string_pairs",2023-07-26 07:20:57,2023-07-26 08:53:23,0.06418981481481481,1.5405555555555555,92.43333333333334
+run-llama/llama_index,10653,[Bug]: Cannot import OpensearchVectorClient,2024-02-13 14:23:47,2024-02-13 15:56:46,0.06457175925925926,1.5497222222222222,92.98333333333333
+deepset-ai/haystack,3812,`custom_query` does not support query inputs with line feeds.,2023-01-05 14:38:02,2023-01-05 16:13:06,0.06601851851851852,1.5844444444444445,95.06666666666666
+run-llama/llama_index,15771,[Bug]: LiteLLMEmbedding cannot read credentials from env,2024-09-01 19:57:04,2024-09-01 21:33:28,0.06694444444444445,1.6066666666666667,96.4
+run-llama/llama_index,15884,[Bug]: initializing llama-index with pgvector does not work,2024-09-06 16:56:43,2024-09-06 18:33:33,0.06724537037037037,1.613888888888889,96.83333333333333
+deepset-ai/haystack,5579,Copy `LazyImport` to v2,2023-08-16 10:50:18,2023-08-16 12:27:19,0.06737268518518519,1.6169444444444445,97.01666666666667
+deepset-ai/haystack,9025,Haystack 2.11.0 cannot deserialize 2.10 Document dictionaries obtained with `flatten=False`,2025-03-12 10:23:35,2025-03-12 12:01:04,0.06769675925925926,1.6247222222222222,97.48333333333333
+microsoft/semantic-kernel,8691,Integration tests failing with: Response status code does not indicate success: 400 (Bad Request).,2024-09-12 09:24:46,2024-09-12 11:02:17,0.06771990740740741,1.6252777777777778,97.51666666666667
+langchain-ai/langchain,26781,Pydantic Validation Error when loading an AmazonTextractPDF from an S3,2024-09-23 17:18:20,2024-09-23 18:55:58,0.06780092592592593,1.6272222222222221,97.63333333333334
+letta-ai/letta,881,Allow deleting agents and modifying agents (at least modifying agent name) via frontend,2024-01-21 19:48:09,2024-01-21 21:26:06,0.06802083333333334,1.6325,97.95
+microsoft/autogen,385,openai.InvalidRequestError -> openai.BadRequestError,2023-10-23 16:38:42,2023-10-23 18:16:49,0.06813657407407407,1.6352777777777778,98.11666666666666
+microsoft/autogen,1436,[Bug]: CI fails for the latest version 8.0.0 of pytest,2024-01-27 23:15:50,2024-01-28 00:54:48,0.06872685185185186,1.6494444444444445,98.96666666666667
+microsoft/autogen,3129,[Bug]: AutoGen.NET middelware overview documentation contains errors in the example code.,2024-07-13 18:46:07,2024-07-13 20:25:09,0.06877314814814815,1.6505555555555556,99.03333333333333
+run-llama/llama_index,13846,[Question]: SmartPDFLoader does not work as a file_extractor,2024-05-30 17:58:10,2024-05-30 19:37:43,0.06913194444444444,1.6591666666666667,99.55
+run-llama/llama_index,9941,[Documentation]: ollama example requires timeout setting,2024-01-09 21:34:38,2024-01-09 23:15:14,0.06986111111111111,1.6766666666666667,100.6
+run-llama/llama_index,15618,[Bug]: Pydantic issue with Gemini LLM,2024-08-24 14:52:14,2024-08-24 16:33:04,0.07002314814814815,1.6805555555555556,100.83333333333333
+run-llama/llama_index,16697,[Bug]: Missing Mistral large 2 model ID in Bedrock and Bedrock-Converse,2024-10-25 14:04:08,2024-10-25 15:45:42,0.0705324074074074,1.6927777777777777,101.56666666666666
+deepset-ai/haystack,6251,Transformers imports in TGI Generators are not lazily imported,2023-11-07 21:27:51,2023-11-07 23:09:43,0.07074074074074074,1.6977777777777778,101.86666666666666
+deepset-ai/haystack,8116,docs: clean up docstrings of TextFileToDocument,2024-07-30 07:28:38,2024-07-30 09:10:37,0.07082175925925926,1.6997222222222221,101.98333333333333
+run-llama/llama_index,16370,"[Feature Request]: Banish ""Stared at the Code"" and Enforce Unit Testing Requirements for Integration PRs",2024-10-04 16:17:07,2024-10-04 17:59:34,0.07114583333333334,1.7075,102.45
+crewAIInc/crewAI,1445,[BUG],2024-10-14 18:47:14,2024-10-14 20:30:07,0.07144675925925927,1.7147222222222223,102.88333333333334
+run-llama/llama_index,11022,[Bug]: Unable to import MetadataReplacementPostProcessor,2024-02-20 13:18:28,2024-02-20 15:01:27,0.0715162037037037,1.716388888888889,102.98333333333333
+run-llama/llama_index,18963,[Bug]: installing llama-index-storage-kvstore-postgres builds psycopg2,2025-06-04 12:43:51,2025-06-04 14:27:03,0.07166666666666667,1.72,103.2
+langchain-ai/langchain,1087,Qdrant Wrapper issue: _document_from_score_point exposes incorrect key for content,2023-02-16 13:18:41,2023-02-16 15:06:04,0.07457175925925925,1.7897222222222222,107.38333333333334
+deepset-ai/haystack,9013,Remove v1 Tutorials & Cookbooks from the website,2025-03-11 10:54:15,2025-03-11 12:42:04,0.07487268518518518,1.7969444444444445,107.81666666666666
+microsoft/autogen,4052,`model_usage` should be renamed to avoid Pydantic warning.,2024-11-04 15:38:03,2024-11-04 17:25:55,0.07490740740740741,1.7977777777777777,107.86666666666666
+langchain-ai/langchain,20217,Request for langchain-together release,2024-04-09 17:34:41,2024-04-09 19:23:53,0.07583333333333334,1.82,109.2
+run-llama/llama_index,17779,[Bug]: Embedding finetuning example notebook fails because of missing dependencies,2025-02-11 02:59:34,2025-02-11 04:49:13,0.07614583333333333,1.8275,109.65
+microsoft/semantic-kernel,9606,Python: Bug: Process Framework typing type hint error when data passed in event contains datetime,2024-11-07 14:32:08,2024-11-07 16:23:27,0.07730324074074074,1.8552777777777778,111.31666666666666
+run-llama/llama_index,15831,[Bug]: AssertionError in PropertyGraph Retrieval using v0.11.4,2024-09-04 14:55:48,2024-09-04 16:47:13,0.07737268518518518,1.8569444444444445,111.41666666666667
+run-llama/llama_index,19726,[Bug]: Core test file references wrong package in import,2025-08-22 18:14:50,2025-08-22 20:06:22,0.0774537037037037,1.8588888888888888,111.53333333333333
+run-llama/llama_index,11698,[Bug]: CondenseQuestionChatEngine fails if no node matches the query,2024-03-06 16:19:10,2024-03-06 18:10:44,0.07747685185185185,1.8594444444444445,111.56666666666666
+microsoft/autogen,5580,intermittent bug: Exception thrown: 'System.InvalidOperationException' in Orleans.Runtime.dll: 'Activation access violation. A non-activation thread attempted to access activation services.',2025-02-17 21:54:36,2025-02-17 23:46:23,0.07762731481481482,1.8630555555555555,111.78333333333333
+run-llama/llama_index,10756,[Bug]: Installs wrong CLIP library,2024-02-15 17:35:02,2024-02-15 19:27:05,0.0778125,1.8675,112.05
+microsoft/autogen,1382,[Bug]: Tests requiring docker not skipped when already running in a container,2024-01-23 21:49:23,2024-01-23 23:42:32,0.07857638888888889,1.8858333333333333,113.15
+microsoft/autogen,3245,[.Net][Feature Request]: Bump version and add release note for v0.0.17,2024-07-29 16:42:58,2024-07-29 18:36:47,0.07903935185185185,1.8969444444444445,113.81666666666666
+run-llama/llama_index,16278,[Bug]: Anthropic LLM complete no longer work for llama-index-llms-anthropic == 0.3.3,2024-09-29 04:01:54,2024-09-29 05:55:45,0.0790625,1.8975,113.85
+run-llama/llama_index,9597,"[Bug]: azure_openai.py does not propagate ""max_retries"" and ""timeout"" in ""_get_credential_kwargs""",2023-12-19 00:23:07,2023-12-19 02:17:01,0.07909722222222222,1.8983333333333334,113.9
+microsoft/semantic-kernel,9466,.Net: Update Azure AI Inference Connector to Beta.2,2024-10-30 10:24:05,2024-10-30 12:18:09,0.07921296296296296,1.9011111111111112,114.06666666666666
+run-llama/llama_index,14631,[Bug]: Promptlayer callback integration does fails on exception,2024-07-08 14:26:44,2024-07-08 16:20:59,0.07934027777777777,1.9041666666666666,114.25
+run-llama/llama_index,10946,"[Bug]: llama-index-readers-github, GithubRepositoryReader no longer supports include filter for specific types of files",2024-02-18 18:23:37,2024-02-18 20:18:36,0.07984953703703704,1.916388888888889,114.98333333333333
+microsoft/autogen,5929,Dockerfile for AutoGen Studio fails to build due to UID conflict,2025-03-13 21:12:36,2025-03-13 23:08:20,0.08037037037037037,1.9288888888888889,115.73333333333333
+deepset-ai/haystack,7695,Pipeline - `include_outputs_from` parameter of `run` method has unexpected behavior,2024-05-14 08:32:22,2024-05-14 10:29:42,0.08148148148148149,1.9555555555555555,117.33333333333333
+run-llama/llama_index,12373,[Bug]: dependency of SelfRAGPack overwrite llama-index-core files,2024-03-28 14:13:17,2024-03-28 16:11:53,0.08236111111111111,1.9766666666666666,118.6
+letta-ai/letta,265,[BUG] incorrect function tool desciption on recall_memory_search and many others,2023-11-03 03:33:57,2023-11-03 05:33:26,0.08297453703703704,1.9913888888888889,119.48333333333333
+microsoft/autogen,5222,Bug in structured outputs with OpenAIChatCompletionClient,2025-01-27 19:16:51,2025-01-27 21:16:48,0.08329861111111111,1.9991666666666668,119.95
+letta-ai/letta,568,OpenAI API Key not being passed in to config in openai_tools.py,2023-12-04 18:48:57,2023-12-04 20:49:09,0.08347222222222223,2.0033333333333334,120.2
+run-llama/llama_index,9114,[Bug]: CustomRetriever object has no attribute 'callback_manager',2023-11-23 17:08:31,2023-11-23 19:08:55,0.08361111111111111,2.006666666666667,120.4
+run-llama/llama_index,10795,[Bug]:  custome retrieval documentation,2024-02-16 14:08:24,2024-02-16 16:08:58,0.08372685185185186,2.0094444444444446,120.56666666666666
+langchain-ai/langchain,22430,RecursiveCharacterTextSplitter.from_language(language=Language.C) ValueError: Language Language.C is not supported! :bug: ,2024-06-03 13:42:36,2024-06-03 15:43:36,0.08402777777777778,2.0166666666666666,121.0
+run-llama/llama_index,13757,[Bug]: QueryTransformComponent is internally calling method `self._query_transform` which doesn't exist,2024-05-27 15:30:08,2024-05-27 17:31:47,0.08447916666666666,2.0275,121.65
+deepset-ai/haystack,8151,Clean up HuggingFaceAPIChatGenerator docstrings,2024-08-02 07:30:00,2024-08-02 09:32:00,0.08472222222222223,2.033333333333333,122.0
+deepset-ai/haystack,903,wrong top_k parameter usage in RAG Tutorials,2021-03-18 14:57:15,2021-03-18 17:00:22,0.08549768518518519,2.0519444444444446,123.11666666666666
+run-llama/llama_index,17731,[Bug]: Azure OpenAI Integration - Unknown 'reasoning_effort' parameter error,2025-02-06 14:46:45,2025-02-06 16:50:56,0.08623842592592593,2.069722222222222,124.18333333333334
+deepset-ai/haystack,7307,Use `Secret` in `ExtractiveReader` for passing authentication secrets,2024-03-05 10:00:43,2024-03-05 12:04:55,0.08625,2.07,124.2
+microsoft/autogen,6953,Redis cache doesn't handle streaming,2025-08-19 16:09:52,2025-08-19 18:15:47,0.08744212962962963,2.098611111111111,125.91666666666667
+deepset-ai/haystack,8157,Clean up HuggingFaceLocalGenerator docstrings,2024-08-02 10:22:07,2024-08-02 12:29:01,0.088125,2.115,126.9
+langchain-ai/langchain,5465,Google BigQuery Loader doesn't take credentials,2023-05-30 21:18:13,2023-05-30 23:25:25,0.08833333333333333,2.12,127.2
+microsoft/autogen,336,Typo Correction,2023-10-21 16:46:57,2023-10-21 18:54:19,0.08844907407407407,2.122777777777778,127.36666666666666
+microsoft/semantic-kernel,1601,Fix HttpClient usage for gRPC skills,2023-06-20 14:07:17,2023-06-20 16:16:55,0.09002314814814814,2.1605555555555553,129.63333333333333
+microsoft/autogen,2735,[.Net][Bug]: AutoGen.Mistral - Tool call id has to be defined in serving mode,2024-05-21 03:42:40,2024-05-21 05:52:19,0.09003472222222222,2.160833333333333,129.65
+deepset-ai/haystack,2839,Annotation Tool healthcheck is broken,2022-07-18 14:21:38,2022-07-18 16:31:23,0.09010416666666667,2.1625,129.75
+microsoft/autogen,3143,[.Net][Bug]: AutoGen.WebAPI not released,2024-07-15 19:41:16,2024-07-15 21:51:16,0.09027777777777778,2.1666666666666665,130.0
+run-llama/llama_index,17151,[Bug]: TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType',2024-12-05 02:01:15,2024-12-05 04:12:06,0.09086805555555555,2.180833333333333,130.85
+microsoft/semantic-kernel,6040,.Net: Step4 agent example fails when run.,2024-04-29 18:35:34,2024-04-29 20:47:03,0.09130787037037037,2.191388888888889,131.48333333333332
+deepset-ai/haystack,7304,`MetaFieldRanker` - the `weight` parameter passed in the `run` method is not taken into account,2024-03-05 09:01:58,2024-03-05 11:13:57,0.0916550925925926,2.1997222222222224,131.98333333333332
+run-llama/llama_index,15600,[Bug]:  Gemini not working with llama-index,2024-08-23 18:42:43,2024-08-23 20:57:09,0.09335648148148148,2.2405555555555554,134.43333333333334
+langchain-ai/langchain,3664,import error when importing `from langchain import OpenAI` on 0.0.151,2023-04-27 16:24:30,2023-04-27 18:39:02,0.09342592592592593,2.2422222222222223,134.53333333333333
+langchain-ai/langchain,23174,MoonshotChat fails when setting the moonshot_api_key through the OS environment.,2024-06-19 14:13:12,2024-06-19 16:28:25,0.09390046296296296,2.2536111111111112,135.21666666666667
+run-llama/llama_index,11693,"[Bug]:  use Neo4jGraphStore , _extract_rel_text_keywords occurs ""out of index""",2024-03-06 14:25:25,2024-03-06 16:41:33,0.09453703703703703,2.2688888888888887,136.13333333333333
+deepset-ai/haystack,8662,`HuggingFaceLocalChatGenerator` does not work properly with the new `ChatMessage`,2024-12-19 11:55:32,2024-12-19 14:12:14,0.09493055555555556,2.2783333333333333,136.7
+run-llama/llama_index,16213,[Bug]: 0.3.5 Release of Vertex llm extension fails on initialization,2024-09-25 15:24:29,2024-09-25 17:42:02,0.09552083333333333,2.2925,137.55
+run-llama/llama_index,18400,[Feature Request]: IBM WatsonxLLM doesn't support `persistent_connection` configurable,2025-04-08 18:06:59,2025-04-08 20:25:48,0.09640046296296297,2.3136111111111113,138.81666666666666
+deepset-ai/haystack,5672,chore: port preview components to Canals 0.7.0,2023-08-29 13:55:44,2023-08-29 16:15:09,0.09681712962962963,2.323611111111111,139.41666666666666
+deepset-ai/haystack,1964,Fix multiprocessing sharing_strategy for Windows,2022-01-05 15:01:22,2022-01-05 17:22:10,0.09777777777777778,2.3466666666666667,140.8
+deepset-ai/haystack,8114,docs: clean up docstrings of PyPDFToDocument,2024-07-30 06:47:44,2024-07-30 09:08:46,0.09793981481481481,2.3505555555555557,141.03333333333333
+run-llama/llama_index,9943,[Bug]:  Issue with pip install llama-index,2024-01-09 21:42:45,2024-01-10 00:03:51,0.09798611111111111,2.3516666666666666,141.1
+run-llama/llama_index,11541,[Bug]: Variable missing when running migration tool (LLAMA_HUB_URL),2024-03-01 15:23:47,2024-03-01 17:45:15,0.09824074074074074,2.3577777777777778,141.46666666666667
+run-llama/llama_index,9039,[Feature Request]: loosening `dataclasses-json` pinning to allow 0.6,2023-11-20 22:54:33,2023-11-21 01:16:02,0.09825231481481482,2.3580555555555556,141.48333333333332
+run-llama/llama_index,19305,[Bug]: FunctionTool.from_defaults broken with new Context typing,2025-07-02 22:46:44,2025-07-03 01:08:22,0.09835648148148148,2.3605555555555555,141.63333333333333
+deepset-ai/haystack,581,Whitespace removal during preprocessing,2020-11-13 10:51:44,2020-11-13 13:14:25,0.09908564814814814,2.3780555555555556,142.68333333333334
+run-llama/llama_index,8959,[Bug]: Pydantic compatibility layer is not used everywhere in the codebase,2023-11-16 17:09:12,2023-11-16 19:32:05,0.09922453703703704,2.381388888888889,142.88333333333333
+crewAIInc/crewAI,2839,[BUG]ImportError: cannot import name 'EventHandler' from 'crewai.utilities.events',2025-05-15 09:45:36,2025-05-15 12:10:24,0.10055555555555555,2.4133333333333336,144.8
+run-llama/llama_index,9038,[Bug]: `pandas` no longer provides `jinja` extra,2023-11-20 22:50:38,2023-11-21 01:16:02,0.10097222222222223,2.4233333333333333,145.4
+microsoft/autogen,6584,"Latest Anthropic models (Claude Sonnet 4, Claude Opus 4) are missing",2025-05-23 16:49:26,2025-05-23 19:15:14,0.10125,2.43,145.8
+microsoft/semantic-kernel,3541,.Net: Ensure the correct cancellation token is used when running REST API and GRPC endpoints,2023-11-17 19:39:55,2023-11-17 22:06:58,0.10211805555555556,2.450833333333333,147.05
+run-llama/llama_index,15985,[Bug]: FunctionCallingAgentWorker throws a ValueError when using system_prompt with FunctionCallingAgent,2024-09-12 19:32:05,2024-09-12 21:59:30,0.10237268518518519,2.4569444444444444,147.41666666666666
+microsoft/semantic-kernel,9605,Python: ProcessStepEdgeBuilder.send_event_to handles ProcessStepBuilder but type is only ProcessFunctionTargetBuilder,2024-11-07 13:53:46,2024-11-07 16:23:26,0.10393518518518519,2.4944444444444445,149.66666666666666
+run-llama/llama_index,15883,[Bug]: ReActAgent.astream_chat() throws AssertionError after updating to the lastest version,2024-09-06 16:48:26,2024-09-06 19:19:00,0.10456018518518519,2.5094444444444446,150.56666666666666
+microsoft/semantic-kernel,12177,Python: Bug: Azure AI agent stuck in an infinite loop when tools not found,2025-05-19 21:19:05,2025-05-19 23:50:46,0.10533564814814815,2.5280555555555555,151.68333333333334
+run-llama/llama_index,18875,[Bug]: Incorrect token counting for Google GenAI,2025-05-28 10:01:19,2025-05-28 12:33:28,0.10565972222222222,2.535833333333333,152.15
+run-llama/llama_index,15805,[Bug]: Document id expects a string but int is being passed,2024-09-03 14:59:33,2024-09-03 17:33:25,0.10685185185185185,2.5644444444444443,153.86666666666667
+letta-ai/letta,579,Allow passing no-verify to AutoGen constructor,2023-12-05 18:54:28,2023-12-05 21:28:34,0.1070138888888889,2.5683333333333334,154.1
+run-llama/llama_index,12350,[Bug]: Compatibility Issue Between Cohere Rerank and Cohere Embeddings,2024-03-28 00:46:10,2024-03-28 03:21:28,0.10784722222222222,2.5883333333333334,155.3
+run-llama/llama_index,11708,[Bug]: OpenAIAgent function not called in stream mode after a tools_call type response,2024-03-06 18:48:26,2024-03-06 21:24:17,0.10822916666666667,2.5975,155.85
+run-llama/llama_index,19214,[Documentation]: The environment variable used in azure openai llm sample is wrong,2025-06-25 13:43:52,2025-06-25 16:20:05,0.1084837962962963,2.6036111111111113,156.21666666666667
+run-llama/llama_index,13842,[Bug]: Graph Index with Azure OpenAI is impossible to query,2024-05-30 16:36:27,2024-05-30 19:13:20,0.10894675925925926,2.6147222222222224,156.88333333333333
+microsoft/semantic-kernel,6466,Python: Kernel Function Decorator loses the types of arguments during parsing,2024-05-31 13:33:32,2024-05-31 16:13:25,0.1110300925925926,2.664722222222222,159.88333333333333
+langchain-ai/langchain,21196,ChatMistralAI with chat history : Assistant message must have either content or tool_calls error,2024-05-02 14:39:44,2024-05-02 17:20:15,0.1114699074074074,2.6752777777777776,160.51666666666668
+run-llama/llama_index,15523,[Bug]: Incorrect type in OpenAI token usage report,2024-08-20 17:36:38,2024-08-20 20:17:25,0.1116550925925926,2.6797222222222223,160.78333333333333
+langchain-ai/langchain,1073,How to control the number of parallel jobs in the MapReduce chain?,2023-02-16 05:12:29,2023-02-16 07:53:58,0.1121412037037037,2.691388888888889,161.48333333333332
+microsoft/autogen,5915,Deadlock in logically recurrent calls to SendMessageAsync,2025-03-12 16:15:31,2025-03-12 18:58:09,0.11293981481481481,2.7105555555555556,162.63333333333333
+run-llama/llama_index,9705,[Bug]: Qdrant search throws an error when hybrid search is used but filter produces 0 results,2023-12-26 14:16:56,2023-12-26 17:02:14,0.11479166666666667,2.755,165.3
+microsoft/autogen,3823,Fix code scanning alert - Weak hashes,2024-10-17 14:46:34,2024-10-17 17:33:19,0.11579861111111112,2.779166666666667,166.75
+microsoft/autogen,3822,Fix code scanning alert - Weak hashes,2024-10-17 14:45:54,2024-10-17 17:33:19,0.11626157407407407,2.790277777777778,167.41666666666666
+run-llama/llama_index,18186,[Bug]: AzureOpenAIEmbeddings retrying request,2025-03-19 14:42:08,2025-03-19 17:29:35,0.11628472222222222,2.7908333333333335,167.45
+microsoft/semantic-kernel,1793,Smeantic-Kernal NuGets fail in Function Apps,2023-06-30 15:48:23,2023-06-30 18:36:16,0.11658564814814815,2.7980555555555555,167.88333333333333
+microsoft/autogen,3821,Fix code scanning alert - Weak hashes,2024-10-17 14:45:16,2024-10-17 17:33:20,0.11671296296296296,2.801111111111111,168.06666666666666
+deepset-ai/haystack,4230,`documents` get overridden by `Shaper`,2023-02-22 10:48:17,2023-02-22 13:37:01,0.11717592592592592,2.812222222222222,168.73333333333332
+microsoft/autogen,3820,Fix code scanning alert - Weak hashes,2024-10-17 14:44:20,2024-10-17 17:33:20,0.11736111111111111,2.816666666666667,169.0
+microsoft/autogen,3819,Fix code scanning alert - Weak hashes,2024-10-17 14:42:50,2024-10-17 17:33:20,0.11840277777777777,2.841666666666667,170.5
+microsoft/autogen,3818,Fix code scanning alert - Weak hashes,2024-10-17 14:42:09,2024-10-17 17:33:21,0.11888888888888889,2.8533333333333335,171.2
+microsoft/autogen,6577,incomplete incorrect instructions,2025-05-22 16:45:31,2025-05-22 19:36:57,0.11905092592592592,2.857222222222222,171.43333333333334
+run-llama/llama_index,9386,[Bug]: Wrong type of returned value for HuggingFaceInferenceAPIEmbedding::_async_embed_single,2023-12-08 00:13:17,2023-12-08 03:04:46,0.11908564814814815,2.8580555555555556,171.48333333333332
+run-llama/llama_index,14960,[Bug]: BM25Retriever __init__ is using wrong stemmer,2024-07-25 13:42:31,2024-07-25 16:36:33,0.12085648148148148,2.9005555555555556,174.03333333333333
+microsoft/autogen,775,@thinkall would you like to update line 98-100 about the version supported for retrievechat?,2023-11-27 02:09:52,2023-11-27 05:04:51,0.12151620370370371,2.9163888888888887,174.98333333333332
+run-llama/llama_index,13025,[Bug]: return_direct not working with openai agent,2024-04-22 15:04:47,2024-04-22 18:00:23,0.12194444444444444,2.9266666666666667,175.6
+langchain-ai/langchain,26895,"`trim_messages` causes an IndexError when invoked with `strategy=""last""`, `include_system=True`, and empty messages",2024-09-26 12:33:08,2024-09-26 15:30:00,0.12282407407407407,2.9477777777777776,176.86666666666667
+run-llama/llama_index,17629,[Bug]: WorkflowRuntimeError: Error in step 'run_agent_step': cannot access local variable 'r' where it is not associated with a value,2025-01-25 19:09:44,2025-01-25 22:07:33,0.1234837962962963,2.963611111111111,177.81666666666666
+langchain-ai/langchain,4142,ImportError: cannot import name 'CursorResult' from 'sqlalchemy',2023-05-05 00:47:24,2023-05-05 03:46:39,0.12447916666666667,2.9875,179.25
+run-llama/llama_index,16333,[Feature Request]: Adding More Lenguage support for bm25 algorithm,2024-10-02 14:36:16,2024-10-02 17:36:16,0.125,3.0,180.0
+run-llama/llama_index,11426,[Documentation]: Fix Incorrect Variable Name in Earnings Transcript Reader Docs,2024-02-27 11:49:52,2024-02-27 14:52:07,0.1265625,3.0375,182.25
+run-llama/llama_index,9052,[Question]: Is there a good reason for CustomQueryEngine custom_query method to not be able to return StreamingResponse?,2023-11-21 13:30:42,2023-11-21 16:33:08,0.1266898148148148,3.0405555555555557,182.43333333333334
+microsoft/autogen,6206,AutoGen Studio is **broken** due to a missing message class (LLMCallEventMessage) (v0.5+),2025-04-04 14:22:15,2025-04-04 17:24:57,0.126875,3.045,182.7
+deepset-ai/haystack,153,Load sentence transformers model in API,2020-06-16 08:55:18,2020-06-16 11:58:31,0.1272337962962963,3.053611111111111,183.21666666666667
+microsoft/semantic-kernel,6106,Python: streaming tool calls with multiple indices are broken,2024-05-02 19:17:49,2024-05-02 22:22:30,0.1282523148148148,3.0780555555555558,184.68333333333334
+deepset-ai/haystack,8084,docs: clean up docstrings of InMemoryBM25Retriever,2024-07-25 12:22:54,2024-07-25 15:28:22,0.1287962962962963,3.091111111111111,185.46666666666667
+langchain-ai/langchain,3997,Llama-cpp docs loading has CallbackManager error,2023-05-02 20:13:28,2023-05-02 23:20:18,0.12974537037037037,3.113888888888889,186.83333333333334
+microsoft/semantic-kernel,1602,Fix HttpClient usage for AI services/connectors,2023-06-20 14:07:22,2023-06-20 17:15:10,0.13041666666666665,3.13,187.8
+deepset-ai/haystack,6238,Unpin trio in Docker image build,2023-11-06 09:18:35,2023-11-06 12:26:28,0.13047453703703704,3.131388888888889,187.88333333333333
+deepset-ai/haystack,7116,Docstrings - `haystack.components.samplers`,2024-02-26 13:58:18,2024-02-26 17:06:30,0.13069444444444445,3.1366666666666667,188.2
+run-llama/llama_index,15932,[Bug]: pydantic error when using HuggingFaceLLM,2024-09-10 00:04:37,2024-09-10 03:14:08,0.1316087962962963,3.158611111111111,189.51666666666668
+deepset-ai/haystack,8155,Clean up HuggingFaceLocalChatGenerator docstrings,2024-08-02 09:19:19,2024-08-02 12:30:48,0.13297453703703704,3.191388888888889,191.48333333333332
+deepset-ai/haystack,6430,Change the default `DuplicatePolicy` value in `write_documents`,2023-11-28 08:17:47,2023-11-28 11:30:18,0.13369212962962962,3.2086111111111113,192.51666666666668
+langchain-ai/langchain,15244,python 3.10 `|` union syntax compatibility,2023-12-28 02:53:57,2023-12-28 06:06:43,0.13386574074074073,3.2127777777777777,192.76666666666668
+deepset-ai/haystack,5806,Change `SentenceTransformersTextEmbedder` to non-batch mode,2023-09-14 07:25:23,2023-09-14 10:38:26,0.1340625,3.2175,193.05
+langchain-ai/langchain,30724,"Unable to use langchain[anthropic] package for redshift db. BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: at least one message is required'}}",2025-04-08 10:28:55,2025-04-08 13:42:51,0.13467592592592592,3.232222222222222,193.93333333333334
+run-llama/llama_index,15927,[Bug]: Custom Embeddings Implementation does not work for current llama index verison,2024-09-09 16:10:31,2024-09-09 19:25:43,0.13555555555555557,3.2533333333333334,195.2
+letta-ai/letta,1572," if msg.role == ""assistant"" and len(msg.tool_calls) >= 1: TypeError: object of type 'NoneType' has no len()",2024-07-26 17:48:26,2024-07-26 21:04:31,0.1361689814814815,3.2680555555555557,196.08333333333334
+microsoft/autogen,3880,Packages are missing `__version__` attribute,2024-10-22 15:03:26,2024-10-22 18:19:41,0.1362847222222222,3.2708333333333335,196.25
+microsoft/semantic-kernel,6697,Python: Bug: api_key missing in AzureAISearchSettings,2024-06-13 12:00:09,2024-06-13 15:21:42,0.13996527777777779,3.359166666666667,201.55
+microsoft/autogen,6951,Redis Store fails to deserialize CreateResult,2025-08-19 12:00:27,2025-08-19 15:24:21,0.14159722222222224,3.3983333333333334,203.9
+run-llama/llama_index,8978,[Bug]: TokenCountingHandler reports incorrect completion token numbers with PydanticProgram,2023-11-17 13:22:41,2023-11-17 16:47:16,0.14207175925925927,3.4097222222222223,204.58333333333334
+langchain-ai/langchain,29251,DOC: typo in tool_results_pass_to_model.ipynb (how-to),2025-01-16 12:39:47,2025-01-16 16:05:30,0.1428587962962963,3.428611111111111,205.71666666666667
+run-llama/llama_index,10970,[Bug]: Using ResponseMode.NO_TEXT triggers an OpenAI error even when an LLM passed.,2024-02-19 12:48:48,2024-02-19 16:14:35,0.1429050925925926,3.4297222222222223,205.78333333333333
+run-llama/llama_index,13868,[Bug]: Package `llama_index.core.bridge.langchain` has an orphan reference to ChatFireworks,2024-05-31 15:04:36,2024-05-31 18:30:46,0.1431712962962963,3.436111111111111,206.16666666666666
+run-llama/llama_index,19116,"[Bug]: Passing ""alias"" to MilvusVectorStore constructor throws error: Connections.connect() got multiple values for argument 'alias'",2025-06-17 21:24:08,2025-06-18 00:51:01,0.1436689814814815,3.4480555555555554,206.88333333333333
+microsoft/semantic-kernel,1653,Persisting plan as new Function for AI (Importing a plan object as a registered function),2023-06-21 20:38:37,2023-06-22 00:06:00,0.14401620370370372,3.4563888888888887,207.38333333333333
+deepset-ai/haystack,9757,Last good state Snapshot should be returned,2025-09-03 08:19:00,2025-09-03 11:46:34,0.14414351851851853,3.4594444444444443,207.56666666666666
+deepset-ai/haystack,5143,PromptNode does't support 16k tokens.,2023-06-14 10:55:56,2023-06-14 14:24:06,0.14456018518518518,3.4694444444444446,208.16666666666666
+letta-ai/letta,487,OpenAI API being called in summarizer,2023-11-19 19:25:15,2023-11-19 22:54:13,0.14511574074074074,3.4827777777777778,208.96666666666667
+deepset-ai/haystack,951,search_fields not accepting array values in pipelines.yaml for ElasticsearchDocumentStore,2021-04-07 14:20:36,2021-04-07 17:50:50,0.14599537037037036,3.503888888888889,210.23333333333332
+run-llama/llama_index,16035,[Bug]: Unnecessary warning in Huggingface LLM when tokenizer is passed as a function argument,2024-09-15 21:38:41,2024-09-16 01:11:05,0.1475,3.54,212.4
+run-llama/llama_index,14637,[Bug]: Llamaindex managed Vertex AI index needs to be updated. ,2024-07-08 18:08:54,2024-07-08 21:42:39,0.1484375,3.5625,213.75
+run-llama/llama_index,13577,[Bug]: ArxivReader.load_papers_and_abstracts trying to read files from hidden directory.,2024-05-19 00:18:44,2024-05-19 03:54:53,0.15010416666666668,3.6025,216.15
+crewAIInc/crewAI,3272,[BUG] Not all tool input displayed in CLI,2025-08-05 11:26:30,2025-08-05 15:05:40,0.15219907407407407,3.6527777777777777,219.16666666666666
+run-llama/llama_index,19274,[Bug]: DeprecationWarning: Context.get() is deprecated. Use 'await ctx.store.get()' instead,2025-06-30 19:38:28,2025-06-30 23:18:37,0.15288194444444445,3.6691666666666665,220.15
+langchain-ai/langchain,9046,ArxivLoader incorrect results,2023-08-10 15:18:24,2023-08-10 18:59:40,0.1536574074074074,3.687777777777778,221.26666666666668
+run-llama/llama_index,10969,[Bug]: Cannot create a KnowledgeGraphQueryEngine from Neo4jGraphStore,2024-02-19 12:32:08,2024-02-19 16:14:34,0.1544675925925926,3.707222222222222,222.43333333333334
+run-llama/llama_index,9774,[Bug]: Incorrect Default Service Context Handling in Service Initialization in DatasetGenerator and RagDatasetGenerator,2023-12-31 18:37:05,2023-12-31 22:19:37,0.15453703703703703,3.7088888888888887,222.53333333333333
+run-llama/llama_index,18416,[Question]: Is State Duplication in Chat History Across Workflow Iterations Intended?,2025-04-09 19:58:44,2025-04-09 23:42:49,0.15561342592592592,3.734722222222222,224.08333333333334
+run-llama/llama_index,16939,[Bug]: BedrockConverse astream_complete not working,2024-11-13 15:06:26,2024-11-13 18:50:39,0.1557060185185185,3.7369444444444446,224.21666666666667
+deepset-ai/haystack,7620,SASEvaluator output scores are list of ndarray for bi-encoders but should be list of float,2024-04-30 10:46:39,2024-04-30 14:30:58,0.15577546296296296,3.738611111111111,224.31666666666666
+run-llama/llama_index,12274,[Bug]: cannot download any Packs via llamaindex-cli and download_llama_pack,2024-03-26 11:08:17,2024-03-26 14:53:27,0.15636574074074075,3.7527777777777778,225.16666666666666
+run-llama/llama_index,10643,[Bug]: Optional dependency on `llama-index-llms-openai` causes import errors,2024-02-13 11:52:09,2024-02-13 15:37:31,0.15650462962962963,3.756111111111111,225.36666666666667
+run-llama/llama_index,15697,[Bug]: `OpenAIMultiModalLLM.stream_chat` stopped working in 0.11,2024-08-28 16:55:41,2024-08-28 20:42:46,0.15769675925925927,3.7847222222222223,227.08333333333334
+langchain-ai/langchain,4357,TokenTextSplitter ignores model_name when using from_tiktoken_encoder,2023-05-08 19:47:49,2023-05-08 23:36:41,0.15893518518518518,3.8144444444444443,228.86666666666667
+run-llama/llama_index,17212,[Bug]: Validation errors for ChatMessage,2024-12-09 17:39:06,2024-12-09 21:28:14,0.15912037037037038,3.818888888888889,229.13333333333333
+microsoft/semantic-kernel,9478,Python: Bug: How do I disable parallel function calling in Semantic Kernel (Python)?,2024-10-30 18:55:43,2024-10-30 22:45:26,0.15952546296296297,3.828611111111111,229.71666666666667
+langchain-ai/langchain,23911,bug: anthropic streaming tool calls for tools with no arguments,2024-07-05 15:07:55,2024-07-05 18:57:42,0.15957175925925926,3.8297222222222222,229.78333333333333
+langchain-ai/langchain,5243,Add possibility to set a proxy for openai API access,2023-05-25 13:00:09,2023-05-25 16:50:27,0.15993055555555555,3.8383333333333334,230.3
+run-llama/llama_index,18777,[Bug]: llama-index-core is broken with older version of sqlalchemy,2025-05-19 13:11:28,2025-05-19 17:01:48,0.1599537037037037,3.838888888888889,230.33333333333334
+run-llama/llama_index,9850,[Bug]: DocumentSummaryIndex over WeaviateVectorStore gives key error during retrieval,2024-01-05 01:18:46,2024-01-05 05:09:35,0.16028935185185186,3.8469444444444445,230.81666666666666
+run-llama/llama_index,17215,[Bug]: TypeError: Client.__init__() got an unexpected keyword argument 'proxies' (even for Groq),2024-12-09 20:19:54,2024-12-10 00:10:44,0.16030092592592593,3.8472222222222223,230.83333333333334
+run-llama/llama_index,19385,[Feature Request]: Add FlashRank Reranker,2025-07-10 13:56:23,2025-07-10 17:47:27,0.16046296296296297,3.851111111111111,231.06666666666666
+letta-ai/letta,233,Failed core_memory_append and core_memory_replace calls,2023-11-01 04:11:09,2023-11-01 08:02:26,0.16061342592592592,3.854722222222222,231.28333333333333
+run-llama/llama_index,18800,[Bug]: Fix connection_string and async_connection_string assigning them default values in Postgres KVStore integration,2025-05-21 14:28:40,2025-05-21 18:20:53,0.16126157407407407,3.870277777777778,232.21666666666667
+run-llama/llama_index,18760,[Bug]: BedrockConverse is not merging tool calls correctly in `stream_chat` and `astream_chat`.,2025-05-16 16:09:26,2025-05-16 20:01:39,0.16126157407407407,3.870277777777778,232.21666666666667
+run-llama/llama_index,17251,[Bug]: Text Generation Inference Context Window Error,2024-12-11 19:59:57,2024-12-11 23:52:15,0.16131944444444443,3.8716666666666666,232.3
+deepset-ai/haystack,8153,Clean up HuggingFaceAPIGenerator docstrings,2024-08-02 08:58:44,2024-08-02 12:51:08,0.1613888888888889,3.8733333333333335,232.4
+run-llama/llama_index,13769,[Bug]: MilvusVectorStore failed to connect to the database when enable_sparse is True,2024-05-28 11:29:57,2024-05-28 15:22:28,0.1614699074074074,3.875277777777778,232.51666666666668
+microsoft/semantic-kernel,9732,.Net: Fix Recent Vulnerabilities Warnings,2024-11-18 13:45:19,2024-11-18 17:38:21,0.1618287037037037,3.883888888888889,233.03333333333333
+crewAIInc/crewAI,2935,[FEATURE] Update Portkey AI observability docs,2025-06-03 08:22:26,2025-06-03 12:15:30,0.16185185185185186,3.8844444444444446,233.06666666666666
+run-llama/llama_index,8835,[Question]: How to Query RAG  systems with Multiple prompt concurently ,2023-11-10 12:11:46,2023-11-10 16:05:30,0.16231481481481483,3.8955555555555557,233.73333333333332
+microsoft/autogen,5453,Avoid throwing error on model mistakes in SelectorGroupChat builtin selector,2025-02-08 19:19:57,2025-02-08 23:13:48,0.16239583333333332,3.8975,233.85
+deepset-ai/haystack,5489,Add `top_k` to `__init__` of DiversityRanker,2023-08-02 11:09:54,2023-08-02 15:04:06,0.1626388888888889,3.9033333333333333,234.2
+run-llama/llama_index,18162,[Bug]: CLIP integration package requires outdated torchvision,2025-03-17 18:42:15,2025-03-17 22:36:40,0.16278935185185187,3.9069444444444446,234.41666666666666
+microsoft/semantic-kernel,4900,".Net : ExcludedPlugins not available for the Handlebars planner, causing problems in certain cases",2024-02-06 17:42:42,2024-02-06 21:37:36,0.163125,3.915,234.9
+run-llama/llama_index,9867,[Bug]: sync_to_async function does not properly convert synchronous to asynchronous,2024-01-06 00:33:00,2024-01-06 04:28:51,0.16378472222222223,3.930833333333333,235.85
+microsoft/semantic-kernel,9579,.Net Agents - Ensure assistant agent exits run when thread deleted externally,2024-11-06 16:13:40,2024-11-06 20:11:15,0.1649884259259259,3.959722222222222,237.58333333333334
+deepset-ai/haystack,1449,Docker-Compose demo broken after recent changes,2021-09-14 06:30:06,2021-09-14 10:28:30,0.16555555555555557,3.973333333333333,238.4
+crewAIInc/crewAI,1511,[BUG] fix: Improve tool description generation in Agent class for better LLM comprehension,2024-10-25 18:43:59,2024-10-25 22:42:56,0.1659375,3.9825,238.95
+langchain-ai/langchain,2500,OpenSearchVectorSearch doesn't permit the user to specify a field name,2023-04-06 15:46:29,2023-04-06 19:45:57,0.1662962962962963,3.991111111111111,239.46666666666667
+deepset-ai/haystack,1115,colab json error,2021-06-01 06:32:39,2021-06-01 10:32:21,0.16645833333333335,3.995,239.7
+langchain-ai/langchain,29090,UnstructuredHTMLLoader fail when given `Path` type document,2025-01-08 11:19:21,2025-01-08 15:19:29,0.16675925925925925,4.002222222222223,240.13333333333333
+run-llama/llama_index,17214,[Bug]: AgentRunner Error: OpenAI Model Requires String Input for messages.1.content,2024-12-09 20:09:23,2024-12-10 00:10:43,0.1675925925925926,4.022222222222222,241.33333333333334
+run-llama/llama_index,18823,[Bug]: ImportError: cannot import name 'ResponseTextAnnotationDeltaEvent' from 'openai.types.responses',2025-05-22 23:12:08,2025-05-23 03:13:33,0.16765046296296296,4.023611111111111,241.41666666666666
+run-llama/llama_index,10639,[Bug]:  module 'llama_index.core' has no attribute '__version__' - in non legacy ElasticsearchStore,2024-02-13 11:02:11,2024-02-13 15:05:20,0.16885416666666667,4.0525,243.15
+microsoft/semantic-kernel,2284,Python: Integration Test Status,2023-08-02 16:07:07,2023-08-02 20:10:17,0.16886574074074073,4.052777777777778,243.16666666666666
+run-llama/llama_index,19152,"[Bug]: QdrantVectorStore: Metadata filter with FilterOperator.IN converts filter values to str, causing type mismatch with integer metadata",2025-06-20 12:50:50,2025-06-20 16:56:53,0.17086805555555556,4.100833333333333,246.05
+deepset-ai/haystack,8132,clean up FilterRetrieverdocstrings,2024-08-01 07:10:38,2024-08-01 11:16:45,0.17091435185185186,4.101944444444444,246.11666666666667
+langchain-ai/langchain,3404,marathon_times.ipynb: mismatched text and code,2023-04-23 21:06:49,2023-04-24 01:14:13,0.17180555555555554,4.123333333333333,247.4
+deepset-ai/haystack,3954,bug: Default timeout is too short for some tests,2023-01-26 10:57:18,2023-01-26 15:04:45,0.17184027777777777,4.1241666666666665,247.45
+microsoft/semantic-kernel,8266,Python: add TextToImage services: (Azure) OpenAI,2024-08-19 09:46:45,2024-08-19 13:55:19,0.17261574074074074,4.142777777777778,248.56666666666666
+microsoft/autogen,2994,[Bug]: Broken image URLs in observability documentation,2024-06-21 23:00:50,2024-06-22 03:09:29,0.17267361111111112,4.144166666666667,248.65
+run-llama/llama_index,9610,[Bug]: Main thread blocks on Imports: Importing anything from llama index block the main thread.,2023-12-19 14:36:46,2023-12-19 18:46:11,0.17320601851851852,4.156944444444444,249.41666666666666
+run-llama/llama_index,17601,[Feature Request]: Mistral Function calling Models should be updated,2025-01-23 16:46:14,2025-01-23 20:57:32,0.17451388888888889,4.1883333333333335,251.3
+deepset-ai/haystack,7448,Add `dimensions` parameter to AzureOpenAI Embedders to fully support the new models,2024-04-02 07:49:10,2024-04-02 12:04:18,0.17717592592592593,4.252222222222223,255.13333333333333
+deepset-ai/haystack,1045,Rename delete_all_documents() -> delete_documents,2021-05-10 07:21:09,2021-05-10 11:37:09,0.17777777777777778,4.266666666666667,256.0
+microsoft/semantic-kernel,4925,Python: SK 0.5.0 breaks streaming,2024-02-08 11:56:22,2024-02-08 16:13:25,0.17850694444444445,4.284166666666667,257.05
+run-llama/llama_index,13244,"[Feature Request]: Argilla Callback Handler updated, new README",2024-05-03 10:57:29,2024-05-03 15:14:35,0.17854166666666665,4.285,257.1
+microsoft/semantic-kernel,4157,.Net: JSON parsing issue when you use HandlebarsPlanner,2023-12-11 12:32:16,2023-12-11 16:49:36,0.1787037037037037,4.288888888888889,257.3333333333333
+run-llama/llama_index,8895,[Bug]: cannot deepcopy TextNode,2023-11-13 19:58:58,2023-11-14 00:16:21,0.17873842592592593,4.289722222222222,257.3833333333333
+microsoft/semantic-kernel,11078,"Python: Bug: KernelFunction model_dump(mode=""json"") fails",2025-03-19 22:05:27,2025-03-20 02:23:00,0.17885416666666668,4.2925,257.55
+run-llama/llama_index,11538,[Bug]: Ambiguity in how Simple Fusion Retriever handles de-duplicating nodes,2024-03-01 12:56:39,2024-03-01 17:14:32,0.17908564814814815,4.298055555555556,257.8833333333333
+run-llama/llama_index,16953,[Feature Request]: Allow Weaviate specific query parameters,2024-11-14 11:35:43,2024-11-14 15:55:14,0.1802199074074074,4.325277777777778,259.51666666666665
+run-llama/llama_index,15470,[Bug]: Resource wordnet not found. Please use the NLTK Downloader to obtain the resource,2024-08-18 15:32:40,2024-08-18 19:55:43,0.1826736111111111,4.384166666666666,263.05
+microsoft/semantic-kernel,12035,Python: cannot import name 'deprecated' from 'typing_extensions.,2025-05-13 13:03:19,2025-05-13 17:28:06,0.1838773148148148,4.413055555555555,264.78333333333336
+run-llama/llama_index,19240,[Bug]: Missing text search configuration in Postgres vector store sparse search query,2025-06-27 09:49:55,2025-06-27 14:17:31,0.18583333333333332,4.46,267.6
+microsoft/semantic-kernel,3731,".Net: In the Handlebars template, the kernel parameter should be moved to the method signatures",2023-11-28 19:14:20,2023-11-28 23:43:05,0.18663194444444445,4.479166666666667,268.75
+deepset-ai/haystack,8932,Remove folder from core integrations https://github.com/deepset-ai/haystack-core-integrations/tree/main/nodes,2025-02-25 10:56:39,2025-02-25 15:26:30,0.18739583333333334,4.4975,269.85
+run-llama/llama_index,12874,[Feature Request]: StreamChatErrorEvent() to provide the inner exception,2024-04-16 18:39:55,2024-04-16 23:10:09,0.18766203703703704,4.503888888888889,270.23333333333335
+microsoft/semantic-kernel,3782,Rename RunStreamingAsync to InvokeStreamingAsync in Kernel.,2023-11-30 16:15:46,2023-11-30 20:46:05,0.1877199074074074,4.505277777777778,270.31666666666666
+run-llama/llama_index,18019,[Question]: Resuming a Workflow,2025-03-05 19:06:07,2025-03-05 23:37:38,0.18855324074074073,4.525277777777778,271.51666666666665
+microsoft/autogen,643,Add function call notebook for gptassistant,2023-11-12 13:32:10,2023-11-12 18:04:20,0.18900462962962963,4.536111111111111,272.1666666666667
+microsoft/autogen,6491,Could you please add model support for gpt-4o-mini-search-preview-2025-03-11?,2025-05-08 20:27:19,2025-05-09 01:01:39,0.19050925925925927,4.572222222222222,274.3333333333333
+deepset-ai/haystack,5840,`UrlCacheChecker` 2.0,2023-09-20 08:10:37,2023-09-20 12:45:52,0.19114583333333332,4.5875,275.25
+run-llama/llama_index,9205,[Bug]: Error during async streaming of OpenAIAgent & multi tool calls,2023-11-29 11:19:25,2023-11-29 15:55:36,0.19179398148148147,4.603055555555556,276.18333333333334
+deepset-ai/haystack,7794,[V2.2.0] ChatPromptBuilder is not export,2024-06-04 03:39:11,2024-06-04 08:17:24,0.1932060185185185,4.6369444444444445,278.21666666666664
+langchain-ai/langchain,28625,Update minimum 'openai' library version required for 'langchain-openai',2024-12-09 11:49:26,2024-12-09 16:28:07,0.1935300925925926,4.644722222222223,278.68333333333334
+langchain-ai/langchain,29088,Labels are not included when include_labels=True is set in ConfluenceLoader,2025-01-08 10:37:42,2025-01-08 15:16:41,0.19373842592592594,4.6497222222222225,278.98333333333335
+microsoft/autogen,5944,Connection error with AzureOpenAI after latest merge,2025-03-14 12:35:57,2025-03-14 17:15:23,0.19405092592592593,4.657222222222222,279.43333333333334
+run-llama/llama_index,13241,[Bug]: ModuleNotFoundError: No module named 'llama_index.readers.web.browserbase',2024-05-03 09:55:08,2024-05-03 14:34:36,0.19407407407407407,4.657777777777778,279.46666666666664
+run-llama/llama_index,9458,"[Bug]: ValueError: ""HuggingFaceLLM"" object has no field ""_messages_to_prompt""",2023-12-12 10:56:10,2023-12-12 15:37:48,0.1955787037037037,4.693888888888889,281.6333333333333
+run-llama/llama_index,9082,[Bug]: can't set extra request headers with the OpenAI client wrapper,2023-11-22 11:30:28,2023-11-22 16:12:12,0.19564814814814815,4.695555555555556,281.73333333333335
+run-llama/llama_index,9020,[Bug]: Using ChatPromptTemplate with context_str no longer works in 0.9 because of faulty _get_available_chunk_size logic,2023-11-20 11:50:24,2023-11-20 16:33:05,0.19630787037037037,4.711388888888889,282.68333333333334
+run-llama/llama_index,16765,[Feature Request]: Azure Vector Search - allow defining retrievable fields.,2024-10-31 12:55:30,2024-10-31 17:38:15,0.19635416666666666,4.7125,282.75
+run-llama/llama_index,10921,"[Bug]: ValueError: ""RetryAgentWorker"" object has no field ""_router_query_engine""",2024-02-17 16:45:04,2024-02-17 21:30:05,0.19792824074074075,4.750277777777778,285.01666666666665
+microsoft/autogen,6265,"ValueError: Dataclass has a union type, which is not supported. To use a union, use a Pydantic model",2025-04-10 13:52:54,2025-04-10 18:38:14,0.19814814814814816,4.7555555555555555,285.3333333333333
+langchain-ai/langchain,29951,Errors with upcoming 2.11 Pydantic release,2025-02-24 11:26:00,2025-02-24 16:11:27,0.19822916666666668,4.7575,285.45
+run-llama/llama_index,10575,[Bug]: 'BedrockEmbedding' has no attribute 'from_credentials',2024-02-12 10:52:11,2024-02-12 15:38:41,0.19895833333333332,4.775,286.5
+langchain-ai/langchain,2624,Missing import in AzureOpenAI embedding example,2023-04-09 14:38:44,2023-04-09 19:25:33,0.19917824074074075,4.780277777777778,286.81666666666666
+run-llama/llama_index,13770,[Bug]: I am not able to run the custom functioned agents as I am getting this error : AttributeError: 'str' object has no attribute 'message',2024-05-28 11:45:25,2024-05-28 16:32:15,0.19918981481481482,4.780555555555556,286.8333333333333
+deepset-ai/haystack,8224,AzureOCRDocumentConverter docstrings,2024-08-14 08:44:35,2024-08-14 13:33:22,0.20054398148148148,4.813055555555556,288.78333333333336
+run-llama/llama_index,19465,[Bug]: `DocumentContextExtractor` does not work when adding `RedisDocumentStore` as docstore,2025-07-18 18:58:55,2025-07-18 23:49:26,0.20174768518518518,4.841944444444445,290.51666666666665
+microsoft/autogen,1162,[Feature Request]: add spelling checker to pre-commit hooks,2024-01-06 20:54:20,2024-01-07 01:44:59,0.20184027777777777,4.844166666666666,290.65
+run-llama/llama_index,18013,[Feature Request]: Add client_kwargs Parameter to OllamaEmbedding Class,2025-03-05 11:39:34,2025-03-05 16:30:37,0.20211805555555556,4.850833333333333,291.05
+microsoft/autogen,4236,Console printing for on_messages_stream,2024-11-16 17:12:19,2024-11-16 22:03:59,0.2025462962962963,4.861111111111111,291.6666666666667
+microsoft/autogen,2432,[Bug]: Using OpenAI project API key gives warnings,2024-04-18 11:13:48,2024-04-18 16:06:17,0.20311342592592593,4.874722222222222,292.48333333333335
+langchain-ai/langchain,90,google/flan-t5-xxl and google/flan-t5-xl don't seem to work with HuggingFaceHub,2022-11-08 21:15:39,2022-11-09 02:08:47,0.2035648148148148,4.885555555555555,293.1333333333333
+run-llama/llama_index,13518,[Bug]: Parameter mismatch in _get_function_tool.<locals>.model_fn(),2024-05-15 15:55:13,2024-05-15 20:48:27,0.20363425925925926,4.887222222222222,293.23333333333335
+langchain-ai/langchain,2905,Ignore files from `.gitignore` in Git loader,2023-04-14 17:08:38,2023-04-14 22:02:23,0.20399305555555555,4.895833333333333,293.75
+run-llama/llama_index,9175,[Bug]: HierarchicalNodeParser not using include_metadata argument,2023-11-28 11:43:46,2023-11-28 16:37:52,0.20423611111111112,4.901666666666666,294.1
+microsoft/semantic-kernel,6952,.Net Bug: IChatCompletionService produces StreamingChatMessageContent without role assignment,2024-06-25 17:11:51,2024-06-25 22:06:03,0.20430555555555555,4.903333333333333,294.2
+crewAIInc/crewAI,2547,cannot import name 'TaskOutput' from 'crewai',2025-04-09 09:30:10,2025-04-09 14:24:55,0.2046875,4.9125,294.75
+deepset-ai/haystack,6830,Rename `default_streaming_callback ` as `print_streaming_chunk`,2024-01-26 10:04:04,2024-01-26 15:00:03,0.20554398148148148,4.933055555555556,295.98333333333335
+run-llama/llama_index,14541,[Bug]: BedrockConverse.complete joining parameter dicts wrongly,2024-07-03 12:12:36,2024-07-03 17:10:18,0.20673611111111112,4.961666666666667,297.7
+microsoft/autogen,4090,AgentChat task should support multi-modal,2024-11-08 00:39:28,2024-11-08 05:38:42,0.20780092592592592,4.987222222222222,299.23333333333335
+run-llama/llama_index,19614,[Bug]: using gpt-5 model cannot do a tool call as it fails on get_tool_calls_from_response in the openai base.py,2025-08-07 21:53:44,2025-08-08 02:54:32,0.2088888888888889,5.013333333333334,300.8
+letta-ai/letta,1168,REST API File upload does not work (memgpt 0.3.6),2024-03-20 17:35:25,2024-03-20 22:39:09,0.21092592592592593,5.062222222222222,303.73333333333335
+microsoft/semantic-kernel,8914,.Net Agents - No ability to maniplate history for KernelFunction based strategies,2024-09-19 19:15:23,2024-09-20 00:22:11,0.21305555555555555,5.113333333333333,306.8
+run-llama/llama_index,15402,[Bug]: poetry add llama-index failing for v0.10.65,2024-08-15 13:08:37,2024-08-15 18:15:48,0.21332175925925925,5.119722222222222,307.18333333333334
+run-llama/llama_index,17721,[Bug]: `AgentWorkflow` doesn't preserve system prompt when passing `chat_history` to `run`,2025-02-05 18:37:18,2025-02-05 23:46:43,0.21487268518518518,5.156944444444444,309.4166666666667
+run-llama/llama_index,18712,[Bug]: `id` field required in Milvus schema for MilvusVectorStore search to work,2025-05-13 11:56:59,2025-05-13 17:08:22,0.21623842592592593,5.189722222222223,311.3833333333333
+run-llama/llama_index,9958,[Bug]: Compatibility with langchain v0.1.0,2024-01-10 13:20:23,2024-01-10 18:33:52,0.21769675925925927,5.224722222222222,313.48333333333335
+microsoft/autogen,1170,[Feature Request]: add black and ruff formatting to notebooks,2024-01-07 22:36:00,2024-01-08 03:50:15,0.21822916666666667,5.2375,314.25
+run-llama/llama_index,18706,[Bug]: azure openai embedding init error with azure ad,2025-05-13 08:11:05,2025-05-13 13:26:46,0.21922453703703704,5.261388888888889,315.68333333333334
+run-llama/llama_index,9080,[Bug]: HuggingFaceEmbedding constructor does not set normalize argument,2023-11-22 10:34:59,2023-11-22 15:52:09,0.22025462962962963,5.286111111111111,317.1666666666667
+microsoft/semantic-kernel,12373,Python: Bug: add_plugin_from_openapi() has hardcoded 5 seconds timeout,2025-06-04 18:21:38,2025-06-04 23:38:52,0.22030092592592593,5.287222222222222,317.23333333333335
+langchain-ai/langchain,5623,cannot import name 'FigmaFileLoader',2023-06-02 16:39:41,2023-06-02 21:58:42,0.22153935185185186,5.316944444444444,319.01666666666665
+langchain-ai/langchain,3988,LangChain openAI callback doesn't allow finetuned models,2023-05-02 18:00:22,2023-05-02 23:19:58,0.22194444444444444,5.326666666666667,319.6
+langchain-ai/langchain,7472,Pinecone: Support starter tier,2023-07-10 10:19:16,2023-07-10 15:39:49,0.22260416666666666,5.3425,320.55
+run-llama/llama_index,14703,[Feature Request]: Add a sample notebook to show llamaindex agents used for managed vertex ai index,2024-07-11 19:05:42,2024-07-12 00:26:49,0.22299768518518517,5.351944444444444,321.1166666666667
+langchain-ai/langchain,6756,Recent tags change causes AttributeError: 'str' object has no attribute 'value' on initialize_agent call,2023-06-26 11:00:29,2023-06-26 16:28:13,0.2275925925925926,5.4622222222222225,327.73333333333335
+microsoft/semantic-kernel,4190,.Net: PromptRendered event does not use changed RenderedPrompt,2023-12-12 08:43:58,2023-12-12 14:14:09,0.22929398148148147,5.503055555555555,330.18333333333334
+run-llama/llama_index,16140,[Bug]: llms-ibm: Pydantic complains about use of model_ namespace,2024-09-20 23:27:44,2024-09-21 04:58:15,0.22952546296296297,5.508611111111111,330.51666666666665
+run-llama/llama_index,15647,[Bug]: TypeError: BaseModel.model_json_schema() got an unexpected keyword argument 'indent',2024-08-26 15:12:09,2024-08-26 20:46:02,0.23186342592592593,5.564722222222223,333.8833333333333
+run-llama/llama_index,17784,[Documentation]: 404 putting_it_all_together/structured_data.md,2025-02-11 10:58:50,2025-02-11 16:32:55,0.23200231481481481,5.5680555555555555,334.0833333333333
+langchain-ai/langchain,32272,LangChain Indexing API: Incorrect num_skipped Count Due to Missing Within-Batch Deduplication Tracking,2025-07-28 08:23:43,2025-07-28 13:58:52,0.23274305555555555,5.585833333333333,335.15
+microsoft/semantic-kernel,10321,.Net: Bug: Ollama connector doesn't play nice with Aspire,2025-01-28 11:00:56,2025-01-28 16:36:43,0.23318287037037036,5.596388888888889,335.78333333333336
+langchain-ai/langchain,29685,"DOC: HuggingFaceEndpoint Requires Explicit `task` Argument, but Documentation Omits It",2025-02-08 14:05:01,2025-02-08 19:41:04,0.23336805555555556,5.600833333333333,336.05
+microsoft/semantic-kernel,3870,.Net: PromptNode and XmlPromptParser should be made internal until we are happy with the full prompt syntax language.,2023-12-01 03:24:18,2023-12-01 09:02:17,0.23471064814814815,5.633055555555556,337.98333333333335
+langchain-ai/langchain,22910,DOC: <Issue related to /v0.2/docs/integrations/chat/> Ollama JSON mode seems to be marked incorrectly as NO,2024-06-14 17:48:39,2024-06-14 23:27:56,0.23561342592592593,5.654722222222222,339.28333333333336
+run-llama/llama_index,9781,[Bug]: Missing Azure OpenAI context sizes,2024-01-01 10:52:57,2024-01-01 16:33:10,0.23626157407407408,5.670277777777778,340.21666666666664
+microsoft/semantic-kernel,10848,Python: Bug: Python AzureChatCompletion without Realtime not working,2025-03-07 11:41:12,2025-03-07 17:22:11,0.23679398148148148,5.683055555555556,340.98333333333335
+deepset-ai/haystack,3024,`test_retriever.py::test_dpr_embedding` for Weaviate is flaky,2022-08-11 10:32:40,2022-08-11 16:13:44,0.23685185185185184,5.684444444444445,341.06666666666666
+run-llama/llama_index,11031,[Bug]: 'AgentChatResponse' object has no attribute 'print_response_stream',2024-02-20 15:38:42,2024-02-20 21:20:29,0.23734953703703704,5.6963888888888885,341.78333333333336
+run-llama/llama_index,10689,[Bug]: Python versions range changed from 0.9.48 and 0.10.x ,2024-02-14 09:39:42,2024-02-14 15:23:45,0.2389236111111111,5.734166666666667,344.05
+run-llama/llama_index,18878,[Bug]: McpToolSpec fetch all tools on empty filtering list,2025-05-28 11:28:28,2025-05-28 17:13:17,0.23945601851851853,5.746944444444445,344.81666666666666
+run-llama/llama_index,9432,[Bug]: Problem with MetadataFilter and AstraDBVectorStore,2023-12-11 11:08:25,2023-12-11 16:53:28,0.23961805555555554,5.7508333333333335,345.05
+langchain-ai/langchain,15845,DOC: Missing dependency when going through the Quickstart section,2024-01-10 21:47:23,2024-01-11 03:32:56,0.2399652777777778,5.759166666666666,345.55
+deepset-ai/haystack,1161,Breaking changes in newer mypy version,2021-06-09 08:38:51,2021-06-09 14:24:39,0.2401388888888889,5.763333333333334,345.8
+crewAIInc/crewAI,3011,[BUG] Crew cannot be run because of incompatible Pydantic version,2025-06-16 14:34:07,2025-06-16 20:20:11,0.24032407407407408,5.767777777777778,346.06666666666666
+run-llama/llama_index,19487,[Bug]: AgentWorkflow Memory not working with Complex prompts,2025-07-21 14:29:07,2025-07-21 20:15:13,0.2403472222222222,5.7683333333333335,346.1
+microsoft/autogen,4245,autogenstudio ui start fails with ImportError,2024-11-17 14:18:45,2024-11-17 20:04:57,0.24041666666666667,5.77,346.2
+run-llama/llama_index,18789,[Bug]: DocumentBlock doesn't work with BedrockConverse,2025-05-20 11:03:58,2025-05-20 16:51:10,0.2411111111111111,5.786666666666667,347.2
+deepset-ai/haystack,8107,docs: clean up docstrings of DocumentJoiner,2024-07-29 06:51:39,2024-07-29 12:39:45,0.24173611111111112,5.801666666666667,348.1
+run-llama/llama_index,15923,[Bug]: Custom Embedding Model example not working due to Pydantic errors,2024-09-09 13:37:26,2024-09-09 19:25:43,0.2418634259259259,5.804722222222222,348.28333333333336
+microsoft/semantic-kernel,4923,Python: AttributeError: 'Choice' object has no attribute 'logprobs',2024-02-08 11:21:15,2024-02-08 17:12:09,0.24368055555555557,5.848333333333334,350.9
+run-llama/llama_index,11689,[Bug]: cannot download RaptorPack via llamaindex-cli and download_llama_pack,2024-03-06 10:47:20,2024-03-06 16:38:26,0.24381944444444445,5.851666666666667,351.1
+deepset-ai/haystack,8896,Haystack is not compatible with `ddtrace>=3.0.0`,2025-02-21 07:43:49,2025-02-21 13:35:06,0.24394675925925927,5.854722222222223,351.28333333333336
+run-llama/llama_index,12524,"[Bug]: keyerror in msg[""additional_kwargs""] when using langfuse and a chat engine",2024-04-03 14:29:00,2024-04-03 20:20:36,0.24416666666666667,5.86,351.6
+microsoft/semantic-kernel,6707,Python: `experimental_class` decorator (new in semantic kernel 1.0.x) is causing typing errors (?),2024-06-14 11:17:40,2024-06-14 17:09:36,0.24439814814814814,5.865555555555556,351.93333333333334
+run-llama/llama_index,13598,[Bug]: sec-filings reader load_data() TypeError,2024-05-20 10:53:51,2024-05-20 16:45:57,0.2445138888888889,5.868333333333333,352.1
+run-llama/llama_index,18434,[Bug]: Llama API not working at all,2025-04-11 11:32:54,2025-04-11 17:25:16,0.24469907407407407,5.872777777777777,352.3666666666667
+microsoft/semantic-kernel,2564,Python: AttributeError: 'CompletionConfig' object has no attribute 'token_selection_biases',2023-08-24 15:33:20,2023-08-24 21:26:03,0.24494212962962963,5.878611111111111,352.71666666666664
+deepset-ai/haystack,5905,HTMLToDocument - a Component for HTML to Raw Text Conversion (v2),2023-09-28 09:29:16,2023-09-28 15:22:30,0.24530092592592592,5.887222222222222,353.23333333333335
+run-llama/llama_index,19050,[Bug]: VectorMemoryBlocks can't retrieve memories from last user prompt,2025-06-11 17:27:44,2025-06-11 23:21:09,0.24542824074074074,5.8902777777777775,353.4166666666667
+run-llama/llama_index,19129,[Feature Request]: TitleExtractor Progress Bar should be nested,2025-06-18 15:19:00,2025-06-18 21:15:36,0.24763888888888888,5.943333333333333,356.6
+langchain-ai/langchain,5822,skip openai params when embedding,2023-06-07 08:36:23,2023-06-07 14:32:59,0.24763888888888888,5.943333333333333,356.6
+deepset-ai/haystack,8148,Clean up AzureOpenAIGenerator docstrings,2024-08-02 06:29:16,2024-08-02 12:26:38,0.2481712962962963,5.956111111111111,357.3666666666667
+run-llama/llama_index,17424,[Question]: Potential Bug in SchemaLLMPathExtractor with PDFs (Property Graph Construction with Predefined Schemas),2025-01-04 20:57:54,2025-01-05 02:58:27,0.25038194444444445,6.009166666666666,360.55
+run-llama/llama_index,9929,[Documentation]: module_guides/storing/chat_stores.html - package name error,2024-01-09 12:15:50,2024-01-09 18:16:24,0.25039351851851854,6.009444444444444,360.56666666666666
+microsoft/autogen,5355,PermissionError: [Errno 13] Permission denied:,2025-02-04 12:22:57,2025-02-04 18:23:47,0.2505787037037037,6.013888888888889,360.8333333333333
+run-llama/llama_index,13764,[Bug]: TypeError: Can't instantiate abstract class MultiModalRetrieverEvaluator with abstract method _aget_retrieved_ids_and_texts,2024-05-28 08:36:46,2024-05-28 14:37:45,0.25068287037037035,6.016388888888889,360.98333333333335
+run-llama/llama_index,18797,[Feature Request]: Create PostgresKVStore and PostgresDocumentStore from existing SQLAlchemy Engine,2025-05-21 08:02:37,2025-05-21 14:05:26,0.2519560185185185,6.046944444444445,362.81666666666666
+run-llama/llama_index,12319,[Bug]: Redis Docstore `docs` property error,2024-03-27 11:47:28,2024-03-27 17:50:23,0.25202546296296297,6.048611111111111,362.9166666666667
+run-llama/llama_index,10287,[Feature Request]: New OpenAI model `gpt-4-0125-preview` is not available,2024-01-26 09:24:13,2024-01-26 15:28:13,0.25277777777777777,6.066666666666666,364.0
+microsoft/autogen,444,chromadb hardcoded path doesn't work in rag_chat in in kaggle kernal environment,2023-10-26 20:57:34,2023-10-27 03:02:20,0.25331018518518517,6.079444444444444,364.76666666666665
+langchain-ai/langchain,857,Loading lc://chains/vector-db-qa/stuff/chain.json broken in 0.0.76,2023-02-03 00:02:24,2023-02-03 06:07:28,0.25351851851851853,6.084444444444444,365.06666666666666
+microsoft/semantic-kernel,4709,Python: Error in Content Filtering Exception init,2024-01-23 13:27:16,2024-01-23 19:32:25,0.2535763888888889,6.085833333333333,365.15
+run-llama/llama_index,17776,[Bug]: error: FlatReader.load_data() got an unexpected keyword argument 'fs' when using S3Reader,2025-02-10 22:39:10,2025-02-11 04:44:22,0.2536111111111111,6.086666666666667,365.2
+microsoft/semantic-kernel,6922,.Net Agents - OpenAIAssistant function calling / tools not capturing function return value,2024-06-24 15:10:34,2024-06-24 21:15:50,0.2536574074074074,6.087777777777778,365.26666666666665
+microsoft/autogen,629,fix compressible agent test error ,2023-11-11 13:57:09,2023-11-11 20:02:26,0.2536689814814815,6.088055555555556,365.28333333333336
+deepset-ai/haystack,8110,docs: clean up docstrings of SentenceTransformersDocumentEmbedder,2024-07-29 07:03:16,2024-07-29 13:10:50,0.25525462962962964,6.126111111111111,367.56666666666666
+deepset-ai/haystack,5807,Change `MemoryEmbeddingRetriever` to non-batch mode,2023-09-14 07:28:14,2023-09-14 13:37:21,0.2563310185185185,6.151944444444444,369.1166666666667
+langchain-ai/langchain,18849,DOC: typo in tools documentation,2024-03-09 15:30:12,2024-03-09 21:39:19,0.2563310185185185,6.151944444444444,369.1166666666667
+deepset-ai/haystack,4065,RayPipeline with a decision node fails,2023-02-06 03:41:14,2023-02-06 09:52:34,0.25787037037037036,6.188888888888889,371.3333333333333
+deepset-ai/haystack,8011,Normalise the use of `importlib`,2024-07-11 08:02:14,2024-07-11 14:14:01,0.25818287037037035,6.1963888888888885,371.78333333333336
+microsoft/autogen,3306,[.Net][Bug]: GroupChatExtension.SendAsync doesn't terminate chat when `IOrchestrator` return null as next agent ,2024-08-06 15:56:40,2024-08-06 22:13:01,0.26135416666666667,6.2725,376.35
+microsoft/autogen,4072,Reset message type should be an agent method not a message,2024-11-05 23:24:25,2024-11-06 05:40:47,0.26136574074074076,6.272777777777778,376.3666666666667
+microsoft/autogen,5910,"Ollama throw ""Object of type Message is not JSON serializable"" error",2025-03-12 14:43:06,2025-03-12 20:59:44,0.26155092592592594,6.277222222222222,376.6333333333333
+run-llama/llama_index,14103,[Bug]: AttributeError: 'Anthropic' object has no attribute 'beta',2024-06-12 09:46:25,2024-06-12 16:04:15,0.26238425925925923,6.2972222222222225,377.8333333333333
+microsoft/autogen,5098,Relax autogen studio python upper bound,2025-01-17 13:19:57,2025-01-17 19:37:54,0.2624652777777778,6.299166666666666,377.95
+run-llama/llama_index,15719,[Bug]: FirecrawlWebReader Error while processing response,2024-08-29 18:29:00,2024-08-30 00:47:32,0.26287037037037037,6.308888888888889,378.53333333333336
+run-llama/llama_index,14406,[Bug]: Perplexity LLM integration incorrectly recognizes chat model as a completion model,2024-06-26 13:35:06,2024-06-26 19:54:42,0.26361111111111113,6.326666666666667,379.6
+microsoft/semantic-kernel,12719,Bug: Exceptions that occur in actors are not surfaced to the caller of orchestrations,2025-07-15 16:51:37,2025-07-15 23:11:24,0.26373842592592595,6.329722222222222,379.78333333333336
+run-llama/llama_index,11045,"[Bug]: Uncaught Exception in ""default_parse_choice_select_answer_fn"" when using default LLMRerank pieces",2024-02-20 18:29:25,2024-02-21 00:52:34,0.2660763888888889,6.385833333333333,383.15
+run-llama/llama_index,18981,[Bug]: Cannot initialize RedisVectorStore with only redis_url since v0.5.1,2025-06-05 11:16:53,2025-06-05 17:41:35,0.2671527777777778,6.411666666666667,384.7
+run-llama/llama_index,16405,[Bug]: TypeError when saving message to ChatStore if return_direct=True was used in QueryEngineTool,2024-10-07 14:22:56,2024-10-07 20:49:49,0.2686689814814815,6.448055555555555,386.8833333333333
+run-llama/llama_index,17994,[Bug]: Unable to set base_url properly for openai AzureOpenAI class,2025-03-03 14:23:07,2025-03-03 20:53:50,0.27133101851851854,6.5119444444444445,390.71666666666664
+deepset-ai/haystack,8104,docs: clean up docstrings of DocumentCleaner,2024-07-29 06:13:37,2024-07-29 12:45:16,0.27197916666666666,6.5275,391.65
+run-llama/llama_index,19166,[Bug]: Anthroptic Bedrock Breaking changes,2025-06-21 08:47:28,2025-06-21 15:19:19,0.27211805555555557,6.530833333333334,391.85
+run-llama/llama_index,13434,[Bug]: Chatml messages_to_prompt ,2024-05-11 16:55:53,2024-05-11 23:27:57,0.2722685185185185,6.5344444444444445,392.06666666666666
+langchain-ai/langchain,16368,"'Bing Search Results JSON' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'functions.0.name' with new langchain 0.1 when using BingSearchResults into agent",2024-01-22 12:38:20,2024-01-22 19:11:04,0.27273148148148146,6.545555555555556,392.73333333333335
+microsoft/autogen,6486,"After closing the sidebar of the team builder, clicking the 'create new team' button will result in an error.",2025-05-08 09:51:56,2025-05-08 16:24:57,0.27292824074074074,6.550277777777778,393.01666666666665
+microsoft/autogen,1936,[Bug]: Images in introduction not showing,2024-03-09 22:11:17,2024-03-10 04:47:25,0.2750925925925926,6.602222222222222,396.1333333333333
+run-llama/llama_index,15616,[Bug]: Gemini not working with llama-index ,2024-08-24 07:18:15,2024-08-24 14:01:51,0.2802777777777778,6.726666666666667,403.6
+microsoft/semantic-kernel,12212,.Net: Bug: Packages downgrade (NU1005) with Semantic Kernel v.153,2025-05-21 08:12:09,2025-05-21 14:59:59,0.2832175925925926,6.7972222222222225,407.8333333333333
+run-llama/llama_index,10212,[Bug]: Circular import on OpenAIPydanticProgram,2024-01-23 14:27:50,2024-01-23 21:17:12,0.2842824074074074,6.822777777777778,409.3666666666667
+microsoft/semantic-kernel,2682,.Net: c#: Redis memory fails with 'Unknown index name' when trying to save things using the latest redis container,2023-09-01 09:09:23,2023-09-01 15:59:59,0.2851388888888889,6.843333333333334,410.6
+run-llama/llama_index,18223,[Question]: Python 3.12,2025-03-21 13:17:54,2025-03-21 20:09:30,0.28583333333333333,6.86,411.6
+langchain-ai/langchain,14589,Unable to dump/load custom classes since langchain_core 0.0.13,2023-12-12 10:16:56,2023-12-12 17:10:00,0.28685185185185186,6.884444444444444,413.06666666666666
+langchain-ai/langchain,4791,Accept UUID list as an argument to add texts and documents into Weaviate vectorstore,2023-05-16 15:31:48,2023-05-16 22:26:48,0.2881944444444444,6.916666666666667,415.0
+deepset-ai/haystack,7235, Docstrings - `haystack.generators.chat`,2024-02-28 09:38:34,2024-02-28 16:33:48,0.28835648148148146,6.920555555555556,415.23333333333335
+run-llama/llama_index,13316,[Bug]: ValueError is not handled in extract_table_summaries,2024-05-07 09:25:12,2024-05-07 16:21:53,0.2893634259259259,6.9447222222222225,416.68333333333334
+microsoft/autogen,4706,Add v1 documentation for AutoGen Studio to v0.4 website.,2024-12-15 00:02:33,2024-12-15 06:59:27,0.2895138888888889,6.948333333333333,416.9
+microsoft/autogen,5248,"[Bug] Official Autogen tutorial ""Using Termination Conditions"" does not work as expected",2025-01-29 11:56:30,2025-01-29 18:53:38,0.28967592592592595,6.952222222222222,417.1333333333333
+deepset-ai/haystack,6388,`PyPDFToDocument` 2.0 is not JSON-serializable due to its `DefaultConverter`,2023-11-23 07:38:12,2023-11-23 14:37:21,0.29107638888888887,6.985833333333333,419.15
+letta-ai/letta,434,Context window from configure not being used in agent `config.json`,2023-11-12 23:58:35,2023-11-13 06:59:42,0.2924421296296296,7.018611111111111,421.1166666666667
+microsoft/semantic-kernel,3658,.Net: Clean Up Old Streaming API's,2023-11-24 13:47:03,2023-11-24 20:48:22,0.29258101851851853,7.021944444444444,421.31666666666666
+run-llama/llama_index,17621,[Feature Request]: Deepseek LLM Integration for Python,2025-01-25 08:14:01,2025-01-25 15:19:17,0.29532407407407407,7.087777777777778,425.26666666666665
+run-llama/llama_index,16526,[Bug]: `llm.structured_predict` fails with Databricks LLM due to `tool_choice` kwarg,2024-10-14 08:31:41,2024-10-14 15:40:02,0.29746527777777776,7.139166666666667,428.35
+run-llama/llama_index,17835,[Documentation]: two 'validation_schema' defined in the program example,2025-02-17 08:15:11,2025-02-17 15:24:04,0.29783564814814817,7.148055555555556,428.8833333333333
+microsoft/semantic-kernel,8983,.Net: Bug: Regression for ChatCompletion with OpenAPI plugin,2024-09-25 12:39:10,2024-09-25 19:49:09,0.298599537037037,7.166388888888889,429.98333333333335
+run-llama/llama_index,9831,[Bug]:  elasticsearch     test_check_user_agent failed,2024-01-04 08:09:38,2024-01-04 15:21:43,0.30005787037037035,7.201388888888889,432.0833333333333
+microsoft/semantic-kernel,12351,".Net Bug: Null reference exception, AI Foundry Agent Service using Bing knowledge",2025-06-03 08:17:27,2025-06-03 15:30:15,0.3005555555555556,7.213333333333333,432.8
+langchain-ai/langchain,7982,TypeError: create_extraction_chain() got an unexpected keyword argument 'verbose',2023-07-20 06:39:12,2023-07-20 13:52:15,0.30072916666666666,7.2175,433.05
+deepset-ai/haystack,7233,API Docs - `haystack.generators.chat`,2024-02-28 09:19:08,2024-02-28 16:33:49,0.3018634259259259,7.244722222222222,434.68333333333334
+run-llama/llama_index,19125,[Bug]: tests of thinking mode for ollama failed,2025-06-18 09:00:11,2025-06-18 16:19:34,0.3051273148148148,7.323055555555555,439.3833333333333
+microsoft/autogen,5217,".NET add runtime interface for send_message to match python, remove the SendRPCRequest/Response",2025-01-27 07:53:37,2025-01-27 15:14:09,0.30592592592592593,7.342222222222222,440.53333333333336
+letta-ai/letta,1948,Groq models are not being loaded,2024-10-28 13:52:37,2024-10-28 21:13:12,0.30596064814814816,7.343055555555556,440.5833333333333
+run-llama/llama_index,15147,[Documentation]: get region error when use Bedrock llm client following the related docs.,2024-08-05 03:20:02,2024-08-05 10:41:30,0.30657407407407405,7.357777777777778,441.46666666666664
+run-llama/llama_index,17084,[Documentation]: Sambanova Integration Issues: Package Names Mismatch and Import Errors,2024-11-27 08:16:55,2024-11-27 15:38:55,0.30694444444444446,7.366666666666666,442.0
+microsoft/autogen,4197,Make import self-consistent in large code blocks in agent chat tutorial.,2024-11-14 21:02:17,2024-11-15 04:25:17,0.3076388888888889,7.383333333333334,443.0
+run-llama/llama_index,9479,[Bug]: persist_dir is passed but never used ,2023-12-13 07:43:03,2023-12-13 15:06:42,0.30809027777777775,7.394166666666667,443.65
+deepset-ai/haystack,8273,Discord link broken in readme,2024-08-23 01:03:28,2024-08-23 08:29:57,0.31005787037037036,7.441388888888889,446.48333333333335
+langchain-ai/langchain,24654,[Regression] SSL verification for requests wrapper crashes for async requests,2024-07-25 07:42:21,2024-07-25 15:09:23,0.3104398148148148,7.450555555555556,447.03333333333336
+langchain-ai/langchain,29765,vectorstore.py for chroma throws a ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all(),2025-02-12 19:09:53,2025-02-13 02:39:17,0.3120833333333333,7.49,449.4
+microsoft/autogen,5452,Improve doc for SelectorGroupChat regarding human in the loop,2025-02-08 18:38:36,2025-02-09 02:08:15,0.31225694444444446,7.494166666666667,449.65
+run-llama/llama_index,14122,"[Bug]: TypeError: expected str instance, int found when calling lazy_load_data method in llama_index/readers/mongodb/base.py",2024-06-13 14:32:34,2024-06-13 22:02:57,0.3127662037037037,7.506388888888889,450.3833333333333
+run-llama/llama_index,9099,[Bug]: _llm_extract_triplets prints data to stdout,2023-11-22 20:14:51,2023-11-23 03:46:17,0.3134953703703704,7.523888888888889,451.43333333333334
+langchain-ai/langchain,7569,Issue: Document loader for Notion DB doesn't supports some properties,2023-07-12 00:02:03,2023-07-12 07:34:56,0.31450231481481483,7.548055555555556,452.8833333333333
+run-llama/llama_index,8907,[Bug]: TextNode object has no attribute __fields_set__,2023-11-14 08:37:18,2023-11-14 16:11:48,0.315625,7.575,454.5
+run-llama/llama_index,18842,[Bug]: Resuming AgentWorkflow after receiving InputRequiredEvent,2025-05-25 14:58:13,2025-05-25 22:33:19,0.31604166666666667,7.585,455.1
+run-llama/llama_index,17191,[Question]: When llama-index-core will be updated to use latest pydantic version 2.10.3,2024-12-07 20:54:45,2024-12-08 04:30:19,0.31636574074074075,7.592777777777778,455.56666666666666
+run-llama/llama_index,14048,[Bug]: ModuleNotFoundError: No module named 'vllm.model_executor.parallel_utils'.,2024-06-10 08:15:16,2024-06-10 15:52:10,0.3172916666666667,7.615,456.9
+crewAIInc/crewAI,2475,[BUG] Multimodal Agent Validation Errors with Image Processing,2025-03-26 12:01:50,2025-03-26 19:40:25,0.3184606481481482,7.643055555555556,458.5833333333333
+run-llama/llama_index,17758,[Documentation]: add instructions for how to add the shell plugin to poetry,2025-02-08 18:27:02,2025-02-09 02:06:12,0.31886574074074076,7.652777777777778,459.1666666666667
+microsoft/autogen,4852,Move `autogen_core.base.intervention` contents out to root module,2024-12-30 13:30:15,2024-12-30 21:09:38,0.3190162037037037,7.6563888888888885,459.3833333333333
+microsoft/semantic-kernel,4991,.Net: OpenApi function generation hits JSON serialization error for deep structures,2024-02-13 02:28:14,2024-02-13 10:12:07,0.3221412037037037,7.731388888888889,463.8833333333333
+microsoft/semantic-kernel,10162,Python: Bug:,2025-01-13 10:30:50,2025-01-13 18:17:40,0.3241898148148148,7.780555555555556,466.8333333333333
+letta-ai/letta,15,Requirements file lists built-in `sqlite3` package,2023-10-17 12:19:23,2023-10-17 20:06:39,0.32449074074074075,7.7877777777777775,467.26666666666665
+microsoft/semantic-kernel,10942,Python: Bug: Breaking Change in 1.22 AzureAssistantAgent,2025-03-12 17:15:44,2025-03-13 01:03:34,0.32488425925925923,7.7972222222222225,467.8333333333333
+run-llama/llama_index,16782,[Question]: EmptyIndex,2024-11-01 13:00:20,2024-11-01 20:49:09,0.32556712962962964,7.813611111111111,468.81666666666666
+deepset-ai/haystack,4914,Upgrade transformers to 4.29.1,2023-05-15 07:20:19,2023-05-15 15:11:24,0.3271412037037037,7.851388888888889,471.0833333333333
+langchain-ai/langchain,655,table naming issue with SQLAlchemy,2023-01-19 15:38:13,2023-01-19 23:33:46,0.33024305555555555,7.925833333333333,475.55
+deepset-ai/haystack,8718,Remove `NLTKDocumentSplitter`,2025-01-15 08:14:29,2025-01-15 16:11:52,0.3315162037037037,7.956388888888889,477.3833333333333
+letta-ai/letta,723,memgpt load directory with hugging-face embeddings fails to parse embed response,2023-12-27 22:08:53,2023-12-28 06:09:30,0.3337615740740741,8.010277777777778,480.6166666666667
+microsoft/autogen,6013,Support cancellation for `DockerCommandLineCodeExecutor`.,2025-03-19 20:26:11,2025-03-20 04:29:03,0.33532407407407405,8.047777777777778,482.8666666666667
+langchain-ai/langchain,14342,Error: ,2023-12-06 11:09:11,2023-12-06 19:12:51,0.33587962962962964,8.061111111111112,483.6666666666667
+langchain-ai/langchain,674,test_faiss_with_metadatas: key mismatch in assert,2023-01-21 16:02:54,2023-01-22 00:08:16,0.3370601851851852,8.089444444444444,485.3666666666667
+run-llama/llama_index,10923,[Question]: Do you foresee VERSION under llama_index.core ,2024-02-17 17:28:18,2024-02-18 01:33:57,0.33725694444444443,8.094166666666666,485.65
+microsoft/semantic-kernel,3171,Python: improve ai service usability for chat/text completions,2023-10-13 08:58:41,2023-10-13 17:04:24,0.33730324074074075,8.095277777777778,485.71666666666664
+deepset-ai/haystack,5510,leading whitespace is missing in the generated text when using `stop_wods`,2023-08-04 07:29:42,2023-08-04 15:40:20,0.3407175925925926,8.177222222222222,490.6333333333333
+run-llama/llama_index,19486,[Bug]: IngestionPipeline error on update to 0.12.48,2025-07-21 13:19:52,2025-07-21 21:31:03,0.34109953703703705,8.186388888888889,491.18333333333334
+letta-ai/letta,2031,Getting `unexpected keyword argument 'user_id'` when deleting a tool,2024-11-13 12:55:46,2024-11-13 21:07:24,0.34141203703703704,8.193888888888889,491.6333333333333
+letta-ai/letta,980,Azure OpenAI: KeyError: 'function_call',2024-02-09 14:49:21,2024-02-09 23:01:58,0.3420949074074074,8.210277777777778,492.6166666666667
+run-llama/llama_index,14822,[Bug]: AgentRunStepStartEvent may be dispatched without associated TaskStep,2024-07-18 18:41:21,2024-07-19 02:54:38,0.3425578703703704,8.221388888888889,493.28333333333336
+run-llama/llama_index,18899,[Feature Request]: Milvus 2.5.12 for Multi-language Analyzers,2025-05-30 11:28:29,2025-05-30 19:46:01,0.34550925925925924,8.292222222222222,497.53333333333336
+letta-ai/letta,2590,AttributeError in GoogleAIClient: missing _clean_google_ai_schema_properties method,2025-04-25 07:34:06,2025-04-25 15:53:00,0.3464583333333333,8.315,498.9
+microsoft/semantic-kernel,6509,Python: Update SessionsPythonTool to API version 2024-02-02-preview,2024-06-03 22:47:19,2024-06-04 07:07:10,0.3471180555555556,8.330833333333333,499.85
+microsoft/semantic-kernel,11393,Python: Bug: AzureAIAgents don't properly form FunctionCallContent due to incorrect instance check,2025-04-07 02:41:30,2025-04-07 11:01:55,0.34751157407407407,8.340277777777779,500.4166666666667
+deepset-ai/haystack,4591,[Docs] Fix seq2seqgenerator api docs -> wrong models,2023-04-04 06:25:44,2023-04-04 14:48:16,0.3489814814814815,8.375555555555556,502.53333333333336
+microsoft/autogen,6419,ModuleNotFoundError: No module named 'opentelemetry.exporter' even though the package opentelemetry-sdk has been installed,2025-04-28 11:08:38,2025-04-28 19:31:20,0.3490972222222222,8.378333333333334,502.7
+run-llama/llama_index,9666,"[Documentation]: typo, should be retrieval not retireval",2023-12-22 07:09:02,2023-12-22 15:32:12,0.3494212962962963,8.386111111111111,503.1666666666667
+microsoft/autogen,6353,Teams with agents that contain duplicated produced_message_types result in an ValueError exception,2025-04-21 20:11:38,2025-04-22 04:39:16,0.35252314814814817,8.460555555555555,507.6333333333333
+run-llama/llama_index,10964,[Bug]: postprocessor/rankGPT_rerank.py has wrong OpenAI import,2024-02-19 07:46:47,2024-02-19 16:14:35,0.3526388888888889,8.463333333333333,507.8
+run-llama/llama_index,17152,[Bug]: ,2024-12-05 07:37:54,2024-12-05 16:06:48,0.3534027777777778,8.481666666666667,508.9
+run-llama/llama_index,15824,"[Bug]: AssertionError assert isinstance(node, BaseNode) or node is None",2024-09-04 08:18:16,2024-09-04 16:47:13,0.3534375,8.4825,508.95
+run-llama/llama_index,8857,"[Question]: Building RAG from scratch example code issue, help",2023-11-11 09:27:08,2023-11-11 17:56:15,0.35355324074074074,8.485277777777778,509.1166666666667
+run-llama/llama_index,15255,[Documentation]: Fix Import Statement in 'Using as a Retriever' Section,2024-08-09 12:28:51,2024-08-09 20:58:50,0.3541550925925926,8.499722222222223,509.98333333333335
+run-llama/llama_index,10708,[Bug]: KnowledgeGraphIndex.as_retriever ignores 'retriever_mode' parameter,2024-02-14 14:12:24,2024-02-14 22:43:23,0.35484953703703703,8.516388888888889,510.98333333333335
+microsoft/autogen,5994,Autogen 0.4.9.2 doesn't work with OpenAI 1.66.3,2025-03-18 20:48:37,2025-03-19 05:20:06,0.35519675925925925,8.524722222222222,511.48333333333335
+deepset-ai/haystack,5052,Extract cli from preview package,2023-05-31 08:02:24,2023-05-31 16:34:16,0.355462962962963,8.53111111111111,511.8666666666667
+deepset-ai/haystack,6906,Component secret management - Update tutorials,2024-02-05 10:00:10,2024-02-05 18:33:23,0.35640046296296296,8.553611111111111,513.2166666666667
+run-llama/llama_index,9551,[Bug]: Error with ollama chat option.,2023-12-15 20:19:05,2023-12-16 05:01:18,0.36265046296296294,8.703611111111112,522.2166666666667
+run-llama/llama_index,16582,[Bug]: Wrong type annotation for LLM.(a)structured_predict,2024-10-17 07:07:35,2024-10-17 15:52:23,0.36444444444444446,8.746666666666666,524.8
+microsoft/semantic-kernel,10521,.Net: Bug: Postgres Connector create Index failed,2025-02-13 08:39:48,2025-02-13 17:27:05,0.36616898148148147,8.788055555555555,527.2833333333333
+run-llama/llama_index,12542,[Bug]: DuckDBVectorStore fails with error: missing 1 required positional argument: 'embed_dim',2024-04-03 16:41:59,2024-04-04 01:31:08,0.36746527777777777,8.819166666666666,529.15
+run-llama/llama_index,10776,"[Bug]: SageMakerEmbedding class deserialize_output does not contain a ""vectors"" key",2024-02-16 07:22:55,2024-02-16 16:12:34,0.3678125,8.8275,529.65
+deepset-ai/haystack,8134,clean up SentenceWindowRetriever docstrings,2024-08-01 07:15:21,2024-08-01 16:05:32,0.3681828703703704,8.836388888888889,530.1833333333333
+run-llama/llama_index,16805,[Bug]: Chroma Persist Client raises a ValueError when retrieving nodes,2024-11-03 20:01:11,2024-11-04 04:55:24,0.3709837962962963,8.903611111111111,534.2166666666667
+run-llama/llama_index,15847,[Bug]: Fail to load images from a remote filesystem,2024-09-05 08:31:54,2024-09-05 17:27:41,0.3720717592592593,8.929722222222223,535.7833333333333
+microsoft/autogen,5982,Unable to dump_component for OpenAIChatCompletionClient using a pydantic as response_format,2025-03-17 18:18:10,2025-03-18 03:14:44,0.3726157407407407,8.942777777777778,536.5666666666667
+run-llama/llama_index,11029,"[Bug]: VllmServer returns ""Exception: can only concatenate str (not ""NoneType"") to str"" with stream_complete",2024-02-20 15:27:20,2024-02-21 00:25:24,0.3736574074074074,8.967777777777778,538.0666666666667
+microsoft/semantic-kernel,12296,Python: Bug: Streaming replies error – final ResponseOutputMessage missing .delta on large runs,2025-05-28 15:51:50,2025-05-29 00:51:06,0.37449074074074074,8.987777777777778,539.2666666666667
+langchain-ai/langchain,23716,"Within async context, `RunnableWithMessageHistory` calls sync `.messages` property instead of async `.aget_messages()` method",2024-07-01 09:33:35,2024-07-01 18:33:06,0.3746643518518519,8.991944444444444,539.5166666666667
+run-llama/llama_index,12180,[Bug]: AttributeError: 'NoneType' object has no attribute 'wait',2024-03-22 15:05:53,2024-03-23 00:06:12,0.3752199074074074,9.005277777777778,540.3166666666667
+microsoft/autogen,2179,[Bug]: LookupError: <ContextVar name='default_iostream' at 0x7f19107cda30>,2024-03-28 05:59:38,2024-03-28 15:01:01,0.37596064814814817,9.023055555555555,541.3833333333333
+run-llama/llama_index,12713,[Documentation]: Args for Postgres Docstore and KVStore Reference Mongo,2024-04-10 21:37:42,2024-04-11 06:41:29,0.3776273148148148,9.063055555555556,543.7833333333333
+microsoft/semantic-kernel,2089,.NET: Package Azure.AI.OpenAI beta 6 release breaking change,2023-07-20 13:30:31,2023-07-20 22:38:04,0.38024305555555554,9.125833333333333,547.55
+run-llama/llama_index,13553,[Bug]: Ollama achat method.,2024-05-17 11:14:14,2024-05-17 20:26:11,0.38329861111111113,9.199166666666667,551.95
+microsoft/semantic-kernel,9638,".Net: Bug: .NET, OpenAI Assistant An item with the same key has already been added. Key: step_",2024-11-11 13:08:48,2024-11-11 22:24:04,0.38560185185185186,9.254444444444445,555.2666666666667
+run-llama/llama_index,14165,[Bug]: Gemini.stream_chat is missing @llm_chat_callback(),2024-06-15 05:07:12,2024-06-15 14:23:33,0.38635416666666667,9.2725,556.35
+microsoft/autogen,3453,[Bug]: LocalCommandLineCodeExecutor decode error,2024-08-30 11:16:42,2024-08-30 20:36:48,0.38895833333333335,9.335,560.1
+microsoft/semantic-kernel,3952,Remove pluginName from CreateFunctionFromPromptYaml,2023-12-05 00:39:16,2023-12-05 10:01:01,0.39010416666666664,9.3625,561.75
+run-llama/llama_index,19231,[Bug]: claude 4 model not available in provider list,2025-06-26 13:03:14,2025-06-26 22:28:00,0.39219907407407406,9.412777777777778,564.7666666666667
+run-llama/llama_index,17654,[Bug]: WorkflowRuntimeError: Error in step 'run_agent_step':  when running non OpenAI LLM,2025-01-28 09:03:36,2025-01-28 18:32:33,0.39510416666666665,9.4825,568.95
+run-llama/llama_index,11895,[Bug]: pymupdf must be an optional dependency because it's AGPLv3 licensed,2024-03-13 12:14:32,2024-03-13 21:45:46,0.3966898148148148,9.520555555555555,571.2333333333333
+microsoft/semantic-kernel,1631,SetRegisteredFunctions don't fail if the function / skill is not present,2023-06-21 14:39:42,2023-06-22 00:11:12,0.396875,9.525,571.5
+run-llama/llama_index,19629,[Feature Request]: Update llama-index-experimental for GPT-5 support,2025-08-09 08:17:20,2025-08-09 17:51:08,0.3984722222222222,9.563333333333333,573.8
+langchain-ai/langchain,19848,Chroma db Code changed thats why unable to access the vectorstore from ChromaDB for embeddings,2024-04-01 07:33:39,2024-04-01 17:10:45,0.40076388888888886,9.618333333333334,577.1
+microsoft/semantic-kernel,12156,.Net: Bug: Unable to install Microsoft.SemanticKernel.Agents.Orchestration v1.51.0-preview,2025-05-19 06:52:38,2025-05-19 16:30:27,0.4012615740740741,9.630277777777778,577.8166666666667
+microsoft/semantic-kernel,3951,CreateFunctionFromPromptYamlResource doesn't get the resource from the right assembly,2023-12-05 00:37:12,2023-12-05 10:15:23,0.4015162037037037,9.636388888888888,578.1833333333333
+microsoft/autogen,5423,[Python] Samples to show how to use UserProxyAgent that takes user feedback from a frontend,2025-02-07 10:39:04,2025-02-07 20:17:57,0.4020023148148148,9.648055555555555,578.8833333333333
+microsoft/semantic-kernel,3958,.Net: output_variable is not a valid property on the YAML schema,2023-12-05 01:18:19,2023-12-05 10:59:10,0.40336805555555555,9.680833333333334,580.85
+deepset-ai/haystack,4693,[Docs] Add WebRetriever API,2023-04-18 05:38:37,2023-04-18 15:19:59,0.40372685185185186,9.689444444444444,581.3666666666667
+microsoft/autogen,4716,"""Extentions"" link under ""API-Layering"" main README.md file is broken",2024-12-15 20:01:39,2024-12-16 05:46:02,0.4058217592592593,9.739722222222222,584.3833333333333
+run-llama/llama_index,15856,[Bug]: Incorrect deserialization for ImageDocument objects,2024-09-05 13:23:52,2024-09-05 23:08:17,0.4058449074074074,9.740277777777777,584.4166666666666
+run-llama/llama_index,14620,[Bug]: ,2024-07-08 06:57:08,2024-07-08 16:41:39,0.4059143518518519,9.741944444444444,584.5166666666667
+run-llama/llama_index,13589,[Documentation]: Add Upstage llm and embedding in document,2024-05-20 02:37:03,2024-05-20 12:23:24,0.4071875,9.7725,586.35
+deepset-ai/haystack,2493,Error for dotproduct metric in PineconeDocumentStore,2022-05-03 21:36:25,2022-05-04 07:24:11,0.4081712962962963,9.796111111111111,587.7666666666667
+run-llama/llama_index,8853,[Bug]: Validation Error for tools in OpenAI Assistant Agent example,2023-11-11 07:57:59,2023-11-11 17:46:11,0.40847222222222224,9.803333333333333,588.2
+run-llama/llama_index,12831,[Bug]: Resource exhausted error when inserting data into Milvus,2024-04-15 08:36:30,2024-04-15 18:26:26,0.40967592592592594,9.832222222222223,589.9333333333333
+microsoft/semantic-kernel,8840,.Net: Sample to show how to provide different functions,2024-09-17 10:43:41,2024-09-17 20:34:48,0.4104976851851852,9.851944444444445,591.1166666666667
+run-llama/llama_index,17533,[Bug]: Gigachat LLM Availability - Package not accessible despite merged PR,2025-01-16 17:50:32,2025-01-17 03:44:07,0.4122106481481482,9.893055555555556,593.5833333333334
+microsoft/autogen,6941,Documentation: Update stable release version in README.md,2025-08-18 18:33:37,2025-08-19 04:27:35,0.41247685185185184,9.899444444444445,593.9666666666667
+langchain-ai/langchain,19947,`langchain.chains.load_chain` fails with `RuntimeError: Loading from the deprecated github-based Hub ...` in langchain 0.1.14 and langchain-core  0.1.39,2024-04-03 07:06:26,2024-04-03 17:00:27,0.41251157407407407,9.900277777777777,594.0166666666667
+microsoft/autogen,6558,CodeExecutorAgent Prompt Misuse,2025-05-19 10:55:18,2025-05-19 20:49:23,0.4125578703703704,9.901388888888889,594.0833333333334
+letta-ai/letta,1070,Not able to load a preset persona or create a persona ; crashes regardless,2024-02-29 18:56:36,2024-03-01 04:51:34,0.4131712962962963,9.91611111111111,594.9666666666667
+deepset-ai/haystack,4077,feat: Support the use of multiple `RayPipelines` from the same app,2023-02-07 00:05:59,2023-02-07 10:01:09,0.4133101851851852,9.919444444444444,595.1666666666666
+microsoft/autogen,5425,MaxMessageTermination should by default only count ChatMessage,2025-02-07 10:52:01,2025-02-07 20:52:10,0.4167708333333333,10.0025,600.15
+microsoft/semantic-kernel,3953,`input_parameters` should be `input_variables` to match prompt serialization ,2023-12-05 00:58:18,2023-12-05 10:59:10,0.41726851851851854,10.014444444444445,600.8666666666667
+langchain-ai/langchain,5720,AttributeError: 'GPT4All' object has no attribute 'model_type' (langchain 0.0.190),2023-06-05 09:44:08,2023-06-05 19:45:31,0.4176273148148148,10.023055555555555,601.3833333333333
+microsoft/semantic-kernel,4105,There should be a `GetFunctionsMetadata()` method on `KernelPlugin`,2023-12-08 14:40:35,2023-12-09 00:44:03,0.4190740740740741,10.057777777777778,603.4666666666667
+run-llama/llama_index,19087,[Bug]: OpenAIResponses only accepts the last message since version 0.3.44,2025-06-14 09:24:33,2025-06-14 19:30:06,0.42052083333333334,10.0925,605.55
+microsoft/autogen,71,filename change in README,2023-10-02 05:48:39,2023-10-02 15:58:03,0.42319444444444443,10.156666666666666,609.4
+run-llama/llama_index,15016,[Bug]: DashScopeRerank missing model_name,2024-07-29 09:55:26,2024-07-29 20:06:40,0.4244675925925926,10.187222222222223,611.2333333333333
+run-llama/llama_index,19336,[Bug]: CallbackManager not applied to default embed_model in VectorStoreIndex.from_documents,2025-07-07 16:25:32,2025-07-08 02:38:45,0.4258449074074074,10.220277777777778,613.2166666666667
+run-llama/llama_index,15822,[Question]: Correct way to store and load a property graph locally,2024-09-04 06:30:29,2024-09-04 16:46:59,0.428125,10.275,616.5
+microsoft/semantic-kernel,9563,Upgrade the upload-artifact or download-artifact actions,2024-11-06 01:43:43,2024-11-06 12:00:27,0.428287037037037,10.278888888888888,616.7333333333333
+run-llama/llama_index,18698,[Bug]: AzureOpenAIEmbedding fails to properly load API key from environment variables,2025-05-12 10:24:31,2025-05-12 20:43:03,0.42953703703703705,10.30888888888889,618.5333333333333
+langchain-ai/langchain,20811,The tool cannot be called correctly when calling the Groq model through langchain——KeyError: 'tool_calls',2024-04-24 04:42:47,2024-04-24 15:06:08,0.43288194444444444,10.389166666666666,623.35
+run-llama/llama_index,18968,[Bug]: azure openai embeddings doesn't call azure_ad_token_provider,2025-06-04 17:56:35,2025-06-05 04:21:39,0.43407407407407406,10.417777777777777,625.0666666666667
+run-llama/llama_index,15687,[Bug]: Mistral interface expects two different types for Mistral,2024-08-28 10:07:25,2024-08-28 20:32:30,0.43408564814814815,10.418055555555556,625.0833333333334
+run-llama/llama_index,11024,[Bug]: AttributeError: 'NotionPageReader' object has no attribute 'token',2024-02-20 13:51:41,2024-02-21 00:21:06,0.4370949074074074,10.490277777777777,629.4166666666666
+run-llama/llama_index,18998,[Bug]: Async functions in a ToolSpec have invalid Metadata,2025-06-07 08:24:13,2025-06-07 18:59:47,0.44136574074074075,10.592777777777778,635.5666666666667
+run-llama/llama_index,17743,[Bug]: Gemini Integration release 0.4.7 breaks usage with LATS Agent Worker,2025-02-07 09:37:43,2025-02-07 20:13:33,0.44155092592592593,10.597222222222221,635.8333333333334
+langchain-ai/langchain,6282,LLMRequestsChain not enforcing headers when making http requests,2023-06-16 12:44:22,2023-06-16 23:21:02,0.44212962962962965,10.61111111111111,636.6666666666666
+microsoft/autogen,3996,[.Net] Turn on file-scope namespace in .editorConfig,2024-10-30 06:26:10,2024-10-30 17:06:00,0.4443287037037037,10.66388888888889,639.8333333333334
+microsoft/semantic-kernel,11071,.Net: Update {Azure}OpenAI Connectors to Latest beta.4,2025-03-19 20:36:07,2025-03-20 07:17:55,0.44569444444444445,10.696666666666667,641.8
+langchain-ai/langchain,1189,Link missing for Question Answering Notebook,2023-02-20 20:10:35,2023-02-21 06:54:28,0.4471412037037037,10.731388888888889,643.8833333333333
+deepset-ai/haystack,155,Latest haystack requires python 3.8 upwards?,2020-06-17 03:39:46,2020-06-17 14:26:22,0.4490277777777778,10.776666666666667,646.6
+langchain-ai/langchain,32775,docs: link to page not found,2025-09-01 08:12:30,2025-09-01 19:02:22,0.4512962962962963,10.831111111111111,649.8666666666667
+run-llama/llama_index,18102,[Bug]: loading data using ElasticsearchReader will result in redundancy.,2025-03-12 06:22:12,2025-03-12 17:13:27,0.4522569444444444,10.854166666666666,651.25
+langchain-ai/langchain,2334,Unit tests were not executed properly locally on a Windows system,2023-04-03 10:18:59,2023-04-03 21:11:20,0.4530208333333333,10.8725,652.35
+microsoft/autogen,6093,"[Bug]: AutoGen Studio - Unclickable New Team, Session buttons",2025-03-25 05:08:34,2025-03-25 16:01:28,0.45340277777777777,10.881666666666666,652.9
+microsoft/autogen,1058,[Bug]: mode is only supported in Pydantic v2,2023-12-26 07:38:45,2023-12-26 18:32:09,0.45375,10.89,653.4
+microsoft/autogen,5979,Ollama MultimodalWebSurfer crash using Ollama and llama3.2,2025-03-17 10:14:21,2025-03-17 21:09:27,0.45493055555555556,10.918333333333333,655.1
+langchain-ai/langchain,5279,Issue Passing in Credential to VertexAI model,2023-05-26 04:34:54,2023-05-26 15:31:04,0.45567129629629627,10.936111111111112,656.1666666666666
+microsoft/autogen,1260,[Bug]: use of `asyncio.coroutines.iscoroutinefunction` instead of `inspect.iscoroutinefunction`,2024-01-15 13:26:59,2024-01-16 00:24:28,0.45658564814814817,10.958055555555555,657.4833333333333
+run-llama/llama_index,15015,[Feature Request]: dashscope add a new emembedding,2024-07-29 09:09:01,2024-07-29 20:06:39,0.4566898148148148,10.960555555555555,657.6333333333333
+run-llama/llama_index,19025,[Documentation]: Workflow link not working in getting started,2025-06-10 13:09:32,2025-06-11 00:07:22,0.4568287037037037,10.963888888888889,657.8333333333334
+run-llama/llama_index,10348,"[Bug]: ToolMetadata missing ""definitions"" in parameters_dict",2024-01-30 07:45:28,2024-01-30 18:49:45,0.46130787037037035,11.071388888888889,664.2833333333333
+microsoft/semantic-kernel,10592,"Python: Bug: AgentGroupChat fails with ""RecursionError: maximum recursion depth exceeded"" when function_choice_behavior = FunctionChoiceBehavior.Auto()",2025-02-18 11:56:47,2025-02-18 23:01:49,0.4618287037037037,11.08388888888889,665.0333333333333
+run-llama/llama_index,12445,[Bug]: '_Settings' object has no attribute 'get_nodes_from_documents' error in examples,2024-03-31 10:28:34,2024-03-31 21:33:53,0.462025462962963,11.088611111111112,665.3166666666667
+langchain-ai/langchain,472,KeyError: 'completion tokens' ,2022-12-29 16:11:06,2022-12-30 03:16:36,0.4621527777777778,11.091666666666667,665.5
+microsoft/semantic-kernel,2790,.Net: Cannot get the value of a token type 'False' as a number when using Chroma Memory Store,2023-09-12 09:59:17,2023-09-12 21:07:08,0.4637847222222222,11.130833333333333,667.85
+run-llama/llama_index,17597,[Bug]: Can't able to use Structured Output for Image input,2025-01-23 09:32:32,2025-01-23 20:41:46,0.4647453703703704,11.153888888888888,669.2333333333333
+microsoft/semantic-kernel,2728,.Net: AzureCognitiveSearchMemoryStore RemoveBatchAsync method fails,2023-09-05 23:13:11,2023-09-06 10:22:44,0.4649652777777778,11.159166666666666,669.55
+run-llama/llama_index,17944,[Bug]: OpenAIMultiModal does not support o3-mini,2025-02-27 10:44:34,2025-02-27 21:54:27,0.46519675925925924,11.164722222222222,669.8833333333333
+langchain-ai/langchain,13356,Issue: Notion DB loader for doesn't supports some properties ,2023-11-14 17:20:22,2023-11-15 04:31:13,0.46586805555555555,11.180833333333334,670.85
+microsoft/semantic-kernel,3868,.Net: IsSkipRequested and Skip can be removed from FunctionInvokingEventArgs,2023-12-01 03:16:53,2023-12-01 14:28:54,0.46667824074074077,11.200277777777778,672.0166666666667
+run-llama/llama_index,10470,[Bug]: Dashscope qwen llm bug,2024-02-06 06:08:51,2024-02-06 17:21:46,0.46730324074074076,11.215277777777779,672.9166666666666
+run-llama/llama_index,8944,"[Bug][llama_index-0.9.1]: ValueError: ""AzureOpenAI"" object has no field ""_http_client""",2023-11-16 04:26:32,2023-11-16 15:39:30,0.467337962962963,11.216111111111111,672.9666666666667
+microsoft/semantic-kernel,3867,.Net: Repeat and IsRepeat can be removed,2023-12-01 03:15:25,2023-12-01 14:28:53,0.4676851851851852,11.224444444444444,673.4666666666667
+run-llama/llama_index,16633,[Bug]: MongoDBKVStore raises package not found,2024-10-22 10:30:17,2024-10-22 21:48:20,0.47086805555555555,11.300833333333333,678.05
+run-llama/llama_index,9951,"[Bug]: When try to run MultiModal notebook example, I faced problem ""'$.input' is invalid. Please check the API reference: https://platform.openai.com/docs/api-reference.""",2024-01-10 04:28:38,2024-01-10 15:49:44,0.4729861111111111,11.351666666666667,681.1
+microsoft/semantic-kernel,6350,Python: FunctionCallingStepwisePlanner not working in semantic-kernel 1.0.0,2024-05-21 11:38:02,2024-05-21 23:02:34,0.4753703703703704,11.408888888888889,684.5333333333333
+langchain-ai/langchain,4513,[pyproject.toml] add `tiktoken` to `tool.poetry.extras.openai`,2023-05-11 07:54:40,2023-05-11 19:21:07,0.4767013888888889,11.440833333333334,686.45
+run-llama/llama_index,16583,[Bug]: Cannot use vector index together while I use PropertyGraphIndex and pass the `response_synthesizer` or other params,2024-10-17 07:20:00,2024-10-17 18:49:18,0.47868055555555555,11.488333333333333,689.3
+microsoft/autogen,3701,[dotnet] App host in Autogen 0.4 .NET (Micrososft.AutoGen.Agents.Client.App) does not shut down safely,2024-10-09 12:52:51,2024-10-10 00:25:28,0.4809837962962963,11.543611111111112,692.6166666666667
+run-llama/llama_index,17277,[Bug]: Bug in Mistral AI Integration: Missing Tool Call ID in Function Calling,2024-12-15 14:17:00,2024-12-16 01:49:50,0.48113425925925923,11.547222222222222,692.8333333333334
+run-llama/llama_index,13385,[Bug]: FirestoreKVStore's aget_all raises AttributeError when collection is not empty,2024-05-09 08:26:26,2024-05-09 20:01:56,0.4829861111111111,11.591666666666667,695.5
+langchain-ai/langchain,18370,LangChain Community  ChatModel for sparkllm Bug,2024-03-01 07:13:07,2024-03-01 18:49:31,0.4836111111111111,11.606666666666667,696.4
+microsoft/semantic-kernel,4209,.Net: It's not possible to get the execution settings for a prompt within an AI Selection Service,2023-12-12 21:46:02,2023-12-13 09:24:37,0.4851273148148148,11.643055555555556,698.5833333333334
+langchain-ai/langchain,29610,Bug in PreFilter of AzureCosmosDBNoSqlVectorSearch,2025-02-05 14:39:50,2025-02-06 02:20:28,0.4865509259259259,11.677222222222222,700.6333333333333
+microsoft/semantic-kernel,4117,.Net Stack Overflow exception when executing FunctionCallingStepwisePlanner using OpenAIChatCompletion,2023-12-09 00:54:52,2023-12-09 12:38:04,0.48833333333333334,11.72,703.2
+run-llama/llama_index,14534,[Bug]: `AzStorageBlobReader` blob parameter data type issue,2024-07-03 05:18:46,2024-07-03 17:03:20,0.4892824074074074,11.742777777777778,704.5666666666667
+microsoft/semantic-kernel,9729,.Net: Bug: Infinite loops with Assistant Agent,2024-11-18 10:53:28,2024-11-18 22:41:13,0.49149305555555556,11.795833333333333,707.75
+run-llama/llama_index,15918,[Bug]: SharepointReader load_resource function broken,2024-09-09 11:15:08,2024-09-09 23:03:52,0.4921759259259259,11.812222222222223,708.7333333333333
+microsoft/autogen,5020,finish_reason of non-openai models not handled in OpenAIChatCompletionClient,2025-01-13 06:36:17,2025-01-13 18:26:33,0.49324074074074076,11.837777777777777,710.2666666666667
+run-llama/llama_index,16754,[Bug]: ReActAgent + Anthropic + Streaming is Functionally Broken,2024-10-30 13:20:48,2024-10-31 01:15:00,0.4959722222222222,11.903333333333334,714.2
+microsoft/autogen,1932,Add info about `register_reply` and more customized conversations built using it,2024-03-09 17:46:35,2024-03-10 05:44:11,0.49833333333333335,11.96,717.6
+run-llama/llama_index,11677,[Bug]: raptor example ,2024-03-06 02:54:00,2024-03-06 14:51:36,0.49833333333333335,11.96,717.6
