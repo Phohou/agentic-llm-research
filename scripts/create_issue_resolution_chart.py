@@ -208,7 +208,7 @@ def plot_resolution_time_boxplot(df):
         ),
     )
 
-    ax.set_ylabel("Resolution Time (Days)", fontsize=FONT_SIZES["axis_label"])
+    ax.set_ylabel("Issue Resolution Time (Days)", fontsize=FONT_SIZES["axis_label"])
     plt.xticks(rotation=45, ha="right", fontsize=FONT_SIZES["tick"])
     apply_grid_style(ax, major_alpha=0.6, minor_alpha=0.4)
     return fig
