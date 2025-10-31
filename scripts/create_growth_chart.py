@@ -84,6 +84,9 @@ def createMonthlyGrowthPlot(df, date):
     """Creates and saves a semi-annual growth chart."""
     
     setup_plotting_style()
+
+    if not date:
+        raise ValueError("Date column name must be provided.")
     
     fig, ax = plt.subplots(figsize=(12, 6))
     repos = df['repo'].unique()
@@ -164,50 +167,51 @@ def total_issues_repo(df, repo_col):
     
     setup_plotting_style()
 
-    if repo_col:
-        # Get repository counts
-        repo_counts = df[repo_col].value_counts()
+    if not repo_col:
+        raise ValueError("Repository column name must be provided.")
+
+    repo_counts = df[repo_col].value_counts()
+    
+    # Create cleaned names for the repositories
+    cleaned_labels = []
+    for repo in repo_counts.index:
+        cleaned_name = clean_repo_name(repo)
+        cleaned_labels.append(cleaned_name)
+    
+    fig, ax = plt.subplots(figsize=(12, 8))
+    
+    # Create horizontal bar chart with cleaned names using color palette
+    bars = ax.barh(cleaned_labels, repo_counts.values, 
+                    color=PAIRED_COLORS[:len(repo_counts)])
+    
+    # Add value labels on bars
+    for i, (bar, value) in enumerate(zip(bars, repo_counts.values)):
+        # Position text at the end of each bar
+        if value >= 1000:
+            label = f'{value/1000:.1f}K'
+        else:
+            label = f'{value}'
         
-        # Create cleaned names for the repositories
-        cleaned_labels = []
-        for repo in repo_counts.index:
-            cleaned_name = clean_repo_name(repo)
-            cleaned_labels.append(cleaned_name)
-        
-        fig, ax = plt.subplots(figsize=(12, 8))
-        
-        # Create horizontal bar chart with cleaned names using color palette
-        bars = ax.barh(cleaned_labels, repo_counts.values, 
-                      color=PAIRED_COLORS[:len(repo_counts)])
-        
-        # Add value labels on bars
-        for i, (bar, value) in enumerate(zip(bars, repo_counts.values)):
-            # Position text at the end of each bar
-            if value >= 1000:
-                label = f'{value/1000:.1f}K'
-            else:
-                label = f'{value}'
-            
-            ax.text(value + max(repo_counts.values) * 0.01, 
-                   bar.get_y() + bar.get_height()/2, 
-                   label, ha='left', va='center', fontsize=FONT_SIZES['annotation'], fontweight='bold')
-        
-        ax.set_xlabel('Number of Issues', fontsize=FONT_SIZES['axis_label'])
-        ax.set_ylabel('Repository', fontsize=FONT_SIZES['axis_label'])
-        
-        # Apply grid styling
-        apply_grid_style(ax)
-        
-        # Format x-axis with 1K, 10K notation if needed
-        def format_thousands(x, pos):
-            if x >= 1000:
-                return f'{x/1000:.1f}K'
-            else:
-                return f'{x:.0f}'
-        
-        ax.xaxis.set_major_formatter(plt.FuncFormatter(format_thousands))
-        
-        plt.tight_layout()
+        ax.text(value + max(repo_counts.values) * 0.01, 
+                bar.get_y() + bar.get_height()/2, 
+                label, ha='left', va='center', fontsize=FONT_SIZES['annotation'], fontweight='bold')
+    
+    ax.set_xlabel('Number of Issues', fontsize=FONT_SIZES['axis_label'])
+    ax.set_ylabel('Repository', fontsize=FONT_SIZES['axis_label'])
+    
+    # Apply grid styling
+    apply_grid_style(ax)
+    
+    # Format x-axis with 1K, 10K notation if needed
+    def format_thousands(x, pos):
+        if x >= 1000:
+            return f'{x/1000:.1f}K'
+        else:
+            return f'{x:.0f}'
+    
+    ax.xaxis.set_major_formatter(plt.FuncFormatter(format_thousands))
+    
+    plt.tight_layout()
         
     return fig
 
@@ -349,23 +353,21 @@ def percentage_labeled_issues(df, repo_col):
     
     setup_plotting_style()
 
-    if repo_col:
-        # Calculate percentage of labeled issues for each repository
-        repo_stats = []
+    repo_stats = []
+
+    for repo in df[repo_col].unique():
+        repo_data = df[df[repo_col] == repo]
+        total_issues = len(repo_data)
+        labeled_issues = len(repo_data[repo_data['labels_count'] >= 1])
+        percentage = (labeled_issues / total_issues) * 100 if total_issues > 0 else 0
         
-        for repo in df[repo_col].unique():
-            repo_data = df[df[repo_col] == repo]
-            total_issues = len(repo_data)
-            labeled_issues = len(repo_data[repo_data['labels_count'] >= 1])
-            percentage = (labeled_issues / total_issues) * 100 if total_issues > 0 else 0
-            
-            repo_stats.append({
-                'repo': repo,
-                'total_issues': total_issues,
-                'labeled_issues': labeled_issues,
-                'percentage': percentage
-            })
-        
+        repo_stats.append({
+            'repo': repo,
+            'total_issues': total_issues,
+            'labeled_issues': labeled_issues,
+            'percentage': percentage
+        })
+    
         # Convert to DataFrame and sort by percentage
         stats_df = pd.DataFrame(repo_stats)
         stats_df = stats_df.sort_values('percentage', ascending=True)
