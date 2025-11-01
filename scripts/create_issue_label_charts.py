@@ -4,6 +4,8 @@ from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
 import seaborn as sns
 from pathlib import Path
+import numpy as np
+from scipy.interpolate import PchipInterpolator
 
 from plot_utils import (
     PLOT_LINE_WIDTH_THIN,
@@ -126,31 +128,44 @@ def plot_new_issues_by_label(df, date_field="created_at"):
             df["prominent_labels"].apply(lambda labels: label in labels)
         ].copy()
 
-        # Group by date (day) and count issues per day
-        daily_counts = (
-            label_df.groupby(label_df[date_field].dt.date)
+        # Group by month and count issues per month
+        label_df["year_month"] = label_df[date_field].dt.to_period("M")
+        monthly_counts = (
+            label_df.groupby("year_month")
             .size()
             .reset_index(name="count")
         )
-        daily_counts.columns = ["date", "count"]
-        daily_counts["date"] = pd.to_datetime(daily_counts["date"])
+        monthly_counts["date"] = monthly_counts["year_month"].dt.to_timestamp()
+        monthly_counts = monthly_counts.sort_values("date")
 
-        daily_counts = daily_counts.sort_values("date")
-
-        # Add 30-day rolling average
-        daily_counts["smoothed"] = (
-            daily_counts["count"].rolling(window=30, center=True, min_periods=1).mean()
-        )
+        # Apply PCHIP interpolation for smooth curves
+        x = np.array([(d - monthly_counts["date"].iloc[0]).total_seconds() 
+                      for d in monthly_counts["date"]])
+        y = monthly_counts["count"].values
+        
+        # Create PCHIP interpolator
+        pchip = PchipInterpolator(x, y)
+        
+        # Generate smooth curve
+        x_smooth = np.linspace(x.min(), x.max(), min(300, len(x) * 3))
+        y_smooth = pchip(x_smooth)
+        
+        # Ensure no negative values
+        y_smooth = np.maximum(y_smooth, 0)
+        
+        # Convert back to dates
+        dates_smooth = [monthly_counts["date"].iloc[0] + pd.Timedelta(seconds=float(xs)) 
+                       for xs in x_smooth]
 
         ax.plot(
-            daily_counts["date"],
-            daily_counts["smoothed"],
+            dates_smooth,
+            y_smooth,
             label=LABELS_TO_DISPLAY_FORMAT.get(label, label),
             linewidth=PLOT_LINE_WIDTH_THIN,
         )
 
     ax.set_ylabel(
-        "New Issues (Rolling Avg: 30 days)", fontsize=FONT_SIZES["axis_label"]
+        "New Issues", fontsize=FONT_SIZES["axis_label"]
     )
     ax.set_ylim(bottom=0)
     ax.set_xlim(right=pd.to_datetime("2025-07-31"))

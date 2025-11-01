@@ -2,7 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from pathlib import Path
-from scipy.signal import savgol_filter
+import numpy as np
+from scipy.interpolate import PchipInterpolator
 
 from plot_utils import (
     PLOT_LINE_WIDTH_THIN,
@@ -91,35 +92,46 @@ def create_daily_commits_count(df, date_field):
     for repo in repos:
         repo_df = df[df["repo_full_name"] == repo].copy()
 
-        # Group by date (day) and count commits per day
-        daily_counts = (
-            repo_df.groupby(repo_df[date_field].dt.date)
-            .size()
-            .reset_index(name="count")
-        )
-        daily_counts.columns = ["date", "count"]
-        daily_counts["date"] = pd.to_datetime(daily_counts["date"])
+        # Group by month and count commits per month
+        repo_df["year_month"] = repo_df[date_field].dt.to_period("M")
+        monthly_counts = repo_df.groupby("year_month").size().reset_index(name="count")
+        monthly_counts["date"] = monthly_counts["year_month"].dt.to_timestamp()
+        monthly_counts = monthly_counts.sort_values("date")
 
-        daily_counts["date"] = pd.to_datetime(daily_counts["date"])
-        daily_counts = daily_counts.sort_values("date")
-
-        # Add 30-day rolling average
-        daily_counts["smoothed"] = (
-            daily_counts["count"].rolling(window=30, center=True, min_periods=1).mean()
+        # Apply PCHIP interpolation for smooth curves
+        x = np.array(
+            [
+                (d - monthly_counts["date"].iloc[0]).total_seconds()
+                for d in monthly_counts["date"]
+            ]
         )
+        y = monthly_counts["count"].values
+
+        # Create PCHIP interpolator
+        pchip = PchipInterpolator(x, y)
+
+        # Generate smooth curve
+        x_smooth = np.linspace(x.min(), x.max(), min(300, len(x) * 3))
+        y_smooth = pchip(x_smooth)
+
+        # Ensure no negative values
+        y_smooth = np.maximum(y_smooth, 0)
+
+        # Convert back to dates
+        dates_smooth = [
+            monthly_counts["date"].iloc[0] + pd.Timedelta(seconds=float(xs))
+            for xs in x_smooth
+        ]
 
         ax.plot(
-            daily_counts["date"],
-            # daily_counts["count"],
-            daily_counts["smoothed"],
+            dates_smooth,
+            y_smooth,
             label=REPO_NAME_TO_DISPLAY.get(repo, repo),
             color=repo_colors[repo],
             linewidth=PLOT_LINE_WIDTH_THIN,
         )
 
-    ax.set_ylabel(
-        "New Commits (Rolling Avg: 30 days)", fontsize=FONT_SIZES["axis_label"]
-    )
+    ax.set_ylabel("New Commits", fontsize=FONT_SIZES["axis_label"])
     ax.set_ylim(bottom=0)
     ax.set_xlim(right=pd.to_datetime("2025-07-31"))
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
