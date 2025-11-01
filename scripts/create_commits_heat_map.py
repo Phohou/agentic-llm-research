@@ -106,12 +106,11 @@ def create_commits_heatmap(df, date_field, period="M"):
 
     sns.heatmap(
         pivot_data,
-        cmap="YlOrRd",
+        cmap="viridis",
         cbar_kws={
             "label": "Number of Commits",
         },
-        linewidths=0.5,
-        linecolor="white",
+        linewidths=0,
         ax=ax,
         fmt="g",
         square=False,
