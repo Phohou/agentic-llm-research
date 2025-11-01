@@ -212,6 +212,9 @@ def setup_legend(
     frameon=True,
     wrap_text=True,
     max_width=20,
+    handlelength=1,
+    borderpad=0.4,
+    columnspacing=1.0,
 ):
     from textwrap import wrap
 
@@ -233,8 +236,9 @@ def setup_legend(
         facecolor="white",
         edgecolor="#CCCCCC",
         framealpha=0.8,
-        borderpad=0.4,
-        handlelength=1,
+        borderpad=borderpad,
+        handlelength=handlelength,
+        columnspacing=columnspacing,
     )
 
     if title:
