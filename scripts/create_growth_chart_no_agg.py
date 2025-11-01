@@ -89,50 +89,6 @@ def createDailyGrowthPlot(df, date):
     return fig
 
 
-def total_issues_repo(df, repo_col):
-    """Create a bar chart showing total issues by repository with cleaned names"""
-    setup_plotting_style()
-
-    repo_counts = df[repo_col].value_counts()
-    cleaned_labels = [
-        REPO_NAME_TO_DISPLAY.get(repo, repo) for repo in repo_counts.index
-    ]
-
-    # Get consistent color mapping
-    repo_colors = get_repo_color_mapping(repo_counts.index)
-
-    fig, ax = plt.subplots(figsize=FIG_SIZE_SINGLE_COL)
-    bars = ax.barh(
-        cleaned_labels,
-        repo_counts.values,
-        color=[repo_colors[repo] for repo in repo_counts.index],
-    )
-
-    for bar, value in zip(bars, repo_counts.values):
-        label = f"{value/1000:.1f}K" if value >= 1000 else f"{value}"
-        ax.text(
-            value + max(repo_counts.values) * 0.01,
-            bar.get_y() + bar.get_height() / 2,
-            label,
-            ha="left",
-            va="center",
-            fontsize=FONT_SIZES["annotation"],
-            fontweight="bold",
-        )
-
-    ax.set_xlabel("Number of Issues", fontsize=FONT_SIZES["axis_label"])
-    ax.set_ylabel("Repository", fontsize=FONT_SIZES["axis_label"])
-
-    ax.xaxis.set_major_formatter(
-        plt.FuncFormatter(lambda x, p: f"{x/1000:.1f}K" if x >= 1000 else f"{x:.0f}")
-    )
-
-    apply_grid_style(ax)
-    plt.tight_layout()
-
-    return fig
-
-
 def plot_average_time_to_close_over_time(df, date_created, date_closed):
     """Plot the average time to close issues over time."""
     setup_plotting_style()
@@ -457,18 +413,6 @@ def main():
             figuresDir / "rq1_daily_issue_trend_.pdf", bbox_inches="tight", format="pdf"
         )
         plt.close(fig1)
-
-        print("\nCreating total issues by repository chart...")
-        fig2 = total_issues_repo(df, "repo")
-        fig2.savefig(
-            outputDir / "total_issues_by_repository2.png", dpi=300, bbox_inches="tight"
-        )
-        fig2.savefig(
-            figuresDir / "total_issues_by_repository2.pdf",
-            bbox_inches="tight",
-            format="pdf",
-        )
-        plt.close(fig2)
 
         print("\nCreating average time to close by repo chart...")
         fig3 = plot_average_time_to_close_over_time(
