@@ -299,32 +299,34 @@ def createDailyIssuesCount(df, date):
 
         # Group by month and count issues per month
         repo_df["year_month"] = repo_df[date].dt.to_period("M")
-        monthly_counts = (
-            repo_df.groupby("year_month")
-            .size()
-            .reset_index(name="count")
-        )
+        monthly_counts = repo_df.groupby("year_month").size().reset_index(name="count")
         monthly_counts["date"] = monthly_counts["year_month"].dt.to_timestamp()
         monthly_counts = monthly_counts.sort_values("date")
 
         # Apply PCHIP interpolation for smooth curves
-        x = np.array([(d - monthly_counts["date"].iloc[0]).total_seconds() 
-                      for d in monthly_counts["date"]])
+        x = np.array(
+            [
+                (d - monthly_counts["date"].iloc[0]).total_seconds()
+                for d in monthly_counts["date"]
+            ]
+        )
         y = monthly_counts["count"].values
-        
+
         # Create PCHIP interpolator
         pchip = PchipInterpolator(x, y)
-        
+
         # Generate smooth curve
         x_smooth = np.linspace(x.min(), x.max(), min(300, len(x) * 3))
         y_smooth = pchip(x_smooth)
-        
+
         # Ensure no negative values
         y_smooth = np.maximum(y_smooth, 0)
-        
+
         # Convert back to dates
-        dates_smooth = [monthly_counts["date"].iloc[0] + pd.Timedelta(seconds=float(xs)) 
-                       for xs in x_smooth]
+        dates_smooth = [
+            monthly_counts["date"].iloc[0] + pd.Timedelta(seconds=float(xs))
+            for xs in x_smooth
+        ]
 
         ax.plot(
             dates_smooth,
@@ -334,9 +336,7 @@ def createDailyIssuesCount(df, date):
             linewidth=PLOT_LINE_WIDTH_THIN,
         )
 
-    ax.set_ylabel(
-        "New Issues", fontsize=FONT_SIZES["axis_label"]
-    )
+    ax.set_ylabel("New Issues", fontsize=FONT_SIZES["axis_label"])
     ax.set_ylim(bottom=0)
     ax.set_xlim(right=pd.to_datetime("2025-07-31"))
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y"))
