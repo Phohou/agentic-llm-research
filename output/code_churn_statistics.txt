@@ -1,0 +1,9 @@
+CODE CHURN SUMMARY STATISTICS
+================================================================================
+
+                            insertions                 deletions                 files_changed               commit
+                                   sum     mean median       sum     mean median           sum   mean median  count
+repo_full_name                                                                                                     
+TransformerOptimus/SuperAGI    3312906  1847.69    7.0   3252694  1814.11    3.0        133013  74.18    1.0   1793
+deepset-ai/haystack            1021994   242.41   20.0    877647   208.17    4.0         24649   5.85    2.0   4216
+langchain-ai/langchain         3380641   244.85   18.0   2518013   182.37    3.0         82016   5.94    2.0  13807
