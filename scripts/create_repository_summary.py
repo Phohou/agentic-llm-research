@@ -78,8 +78,12 @@ def issues_and_commits_dual_axis(df, commits_df, issues_col, commits_col):
     # Get commits counts
     commits_counts = commits_df[commits_col].value_counts()
 
-    # Get all repositories (union of both datasets)
-    all_repos = sorted(set(issues_counts.index) | set(commits_counts.index))
+    # Get all repositories (union of both datasets) and sort by display name (repo name only) in reverse for top-to-bottom display
+    all_repos = sorted(
+        set(issues_counts.index) | set(commits_counts.index),
+        key=lambda x: REPO_NAME_TO_DISPLAY.get(x, x),
+        reverse=True,
+    )
 
     # Prepare data
     cleaned_labels = [REPO_NAME_TO_DISPLAY.get(repo, repo) for repo in all_repos]
@@ -95,16 +99,20 @@ def issues_and_commits_dual_axis(df, commits_df, issues_col, commits_col):
     y_pos = range(len(cleaned_labels))
     bar_height = 0.35
 
+    # Calculate the common scale based on the maximum of both datasets
+    max_value = max(max(issues_values), max(commits_values))
+    common_limit = max_value * 1.15
+
     # Set up axes properties and grid FIRST before plotting
-    ax1.set_xlabel("Number of Issues", fontsize=FONT_SIZES["axis_label"])
     ax1.set_yticks(y_pos)
     ax1.set_yticklabels(cleaned_labels)
-    ax1.set_xlim(0, max(issues_values) * 1.15)
+    ax1.set_xlim(0, common_limit)
 
     # Create second x-axis for commits (top)
     ax2 = ax1.twiny()
-    ax2.set_xlabel("Number of Commits", fontsize=FONT_SIZES["axis_label"])
-    ax2.set_xlim(0, max(commits_values) * 1.15)
+    ax2.set_xlim(0, common_limit)
+    ax2.set_xticklabels([])  # Hide tick labels since both axes share the same scale
+    ax2.tick_params(axis="x", which="both", length=0)  # Hide tick marks
 
     # NOW plot issues on the first axis (bottom)
     bars1 = ax1.barh(
@@ -119,7 +127,7 @@ def issues_and_commits_dual_axis(df, commits_df, issues_col, commits_col):
     for bar, value in zip(bars1, issues_values):
         if value > 0:
             ax1.text(
-                value + max(issues_values) * 0.01,
+                value + max_value * 0.01,
                 bar.get_y() + bar.get_height() * 0.2,
                 f"{int(value)}",
                 ha="left",
@@ -136,11 +144,11 @@ def issues_and_commits_dual_axis(df, commits_df, issues_col, commits_col):
         color=light_color,
     )
 
-    # Add value labels for commits (positioned lower to avoid being too high)
+    # Add value labels for commits
     for bar, value in zip(bars2, commits_values):
         if value > 0:
             ax2.text(
-                value + max(commits_values) * 0.01,
+                value + max_value * 0.01,
                 bar.get_y() + bar.get_height() * 0.5,
                 f"{int(value)}",
                 ha="left",
