@@ -57,10 +57,9 @@ def create_issue_heatmap(df, date_field, period="M"):
         REPO_NAME_TO_DISPLAY.get(repo, repo) for repo in pivot_data.index
     ]
 
-    # Sort by total issues (descending)
-    pivot_data["total"] = pivot_data.sum(axis=1)
-    pivot_data = pivot_data.sort_values("total", ascending=True)
-    pivot_data = pivot_data.drop("total", axis=1)
+    # Sort rows by display name (alphabetical) so repos appear in a consistent order
+    # The index already contains display names via REPO_NAME_TO_DISPLAY, so sort by index
+    pivot_data = pivot_data.sort_index(ascending=True)
 
     # Store original period data for tick selection
     original_columns = pivot_data.columns.copy()
