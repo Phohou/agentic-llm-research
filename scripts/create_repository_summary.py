@@ -171,8 +171,8 @@ def issues_and_commits_dual_axis(df, commits_df, issues_col, commits_col):
     legend = ax1.legend(
         all_handles,
         all_labels,
-        loc="lower right",
-        ncol=2,
+        loc="upper right",
+        ncol=1,
         frameon=True,
         facecolor="white",
         edgecolor="#CCCCCC",
