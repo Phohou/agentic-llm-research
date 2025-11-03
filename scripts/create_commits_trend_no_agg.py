@@ -70,7 +70,7 @@ def create_daily_commits_trend(df, date_field):
     setup_legend(
         ax,
         loc="upper left",
-        max_width=10,
+        max_width=15,
     )
 
     apply_grid_style(ax, major_alpha=0.6, minor_alpha=0.4)
@@ -143,7 +143,7 @@ def create_daily_commits_count(df, date_field):
     setup_legend(
         ax,
         loc="upper left",
-        max_width=10,
+        max_width=15,
     )
 
     apply_grid_style(ax, major_alpha=0.6, minor_alpha=0.4)

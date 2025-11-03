@@ -149,10 +149,9 @@ def save_statistics_table(stats, output_dir):
 
 
 def prepare_boxplot_data(df):
-    repos = sorted(
-        df["repo"].unique(),
-        key=lambda x: df[df["repo"] == x]["resolution_days"].median(),
-    )
+    # Sort repositories alphabetically by their display name (owner/repo -> display name)
+    # This keeps ordering consistent with other charts that use REPO_NAME_TO_DISPLAY
+    repos = sorted(df["repo"].unique(), key=lambda x: REPO_NAME_TO_DISPLAY.get(x, x))
     repo_display_names = [REPO_NAME_TO_DISPLAY.get(repo, repo) for repo in repos]
     data = [df[df["repo"] == repo]["resolution_days"].values for repo in repos]
     colors = get_repo_color_mapping(repos)

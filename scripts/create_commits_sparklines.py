@@ -39,9 +39,11 @@ def create_sparklines(df, date_field, period="M"):
     # Create time period column
     df["time_period"] = df[date_field].dt.to_period(period)
 
-    # Get unique repositories and sort by total commits (descending)
-    repo_totals = df.groupby("repo_full_name").size().sort_values(ascending=False)
-    repos = repo_totals.index.tolist()
+    # Get unique repositories and sort by display name (alphabetical) for top-to-bottom sparklines
+    repo_totals = df.groupby("repo_full_name").size()
+    repos = sorted(
+        repo_totals.index.tolist(), key=lambda x: REPO_NAME_TO_DISPLAY.get(x, x)
+    )
 
     # Get color mapping for repositories
     color_map = get_repo_color_mapping(repos)

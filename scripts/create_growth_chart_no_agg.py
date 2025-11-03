@@ -82,7 +82,7 @@ def createDailyGrowthPlot(df, date):
         ax,
         loc="upper left",
         # bbox_to_anchor=(1.01, 1),
-        max_width=10,
+        max_width=15,
     )
 
     apply_grid_style(ax, major_alpha=0.6, minor_alpha=0.4)
@@ -345,7 +345,7 @@ def createDailyIssuesCount(df, date):
 
     plt.xticks(rotation=0)
 
-    setup_legend(ax, loc="upper left", max_width=10)
+    setup_legend(ax, loc="upper left", max_width=15)
     apply_grid_style(ax, major_alpha=0.6, minor_alpha=0.4)
 
     return fig

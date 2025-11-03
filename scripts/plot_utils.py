@@ -221,6 +221,19 @@ def setup_legend(
     # Get current legend handles and labels
     handles, labels = ax.get_legend_handles_labels()
 
+    # Sort legend entries alphabetically by label to ensure consistent ordering
+    if labels:
+        try:
+            # Pair labels with handles and sort by label (case-insensitive)
+            paired = sorted(zip(labels, handles), key=lambda x: x[0].lower())
+            labels, handles = zip(*paired)
+            labels = list(labels)
+            handles = list(handles)
+        except Exception:
+            # Fallback: keep original order if sorting fails for any reason
+            labels = list(labels)
+            handles = list(handles)
+
     # Wrap labels if requested
     if wrap_text:
         labels = ["\n".join(wrap(label, max_width)) for label in labels]
