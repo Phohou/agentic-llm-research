@@ -170,6 +170,7 @@ def plot_resolution_time_boxplot(df):
         tick_labels=repo_display_names,
         patch_artist=True,
         widths=0.6,
+        # whis=[0, 100],  # Extend whiskers to min/max instead of 1.5*IQR
         showfliers=False,
         showmeans=True,
         medianprops=dict(color="black", linewidth=1.2),
